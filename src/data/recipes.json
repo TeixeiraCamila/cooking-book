@@ -1,0 +1,206 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Cupcake de Cenoura com Ganache de Chocolate",
+      "description": "Cupcakes fofos e úmidos com ganache de chocolate, perfeitos para festinhas e celebrações.",
+      "servings": 16,
+      "time": "58 minutos",
+      "image": "https://images.unsplash.com/photo-1487124504955-e42a39e11aaf?q=80&w=1426&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            { "quantity": "1 xícara", "name": "óleo vegetal (canola ou girassol)" },
+            { "quantity": "4 unidades", "name": "ovos" },
+            { "quantity": "2 xícaras", "name": "açúcar" },
+            { "quantity": "1 xícara", "name": "cenoura picada" },
+            { "quantity": "2 xícaras", "name": "farinha de trigo" },
+            { "quantity": "1 colher de sopa", "name": "fermento em pó" },
+            { "quantity": "1 pitada", "name": "sal" }
+          ]
+        },
+        {
+          "name": "Ganache de Chocolate",
+          "ingredients": [
+            { "quantity": "250g", "name": "chocolate meio amargo" },
+            { "quantity": "250g", "name": "chocolate ao leite" },
+            { "quantity": "1 caixinha", "name": "creme de leite" }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa",
+          "steps": [
+            "Ligue o forno em 180°C. Em uma tigela grande, peneire a farinha, o fermento e o sal. Lave e descasque a cenoura, depois pique em pequenos pedaços.",
+            "No liquidificador, pulse o óleo, os ovos, a cenoura e o açúcar até ficar uniforme. Use pequenos pulsos — não bata demais os ovos. Retire quando não houver mais grandes pedaços de cenoura.",
+            "Despeje a mistura na tigela com os ingredientes secos e incorpore com uma espátula dobrando a massa suavemente sobre ela mesma. Não mexa em excesso para o bolo não solar.",
+            "Divida entre as forminhas de cupcake nº 0 e asse por 18 minutos, ou até que um palito inserido no centro saia limpo. Espere esfriar completamente antes de decorar."
+          ]
+        },
+        {
+          "name": "Ganache",
+          "steps": [
+            "Derreta o chocolate no micro-ondas em 3 ciclos de 1,5 minuto na potência 60%. Retire a cada ciclo e mexa, observando quando estará totalmente derretido.",
+            "Retire do micro-ondas e deixe chegar à temperatura ambiente — ele deve refrescar mas continuar líquido. Adicione o creme de leite e mexa até obter uma mistura homogênea e brilhante.",
+            "Leve à geladeira por 30 a 40 minutos ou até endurecer. Coloque no saco de confeitar com bico pitanga e decore os cupcakes, começando pela borda externa e fazendo a volta até o centro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bolo de Chocolate Fudge",
+      "description": "Um bolo de chocolate intenso e úmido, coberto com cremosa cobertura de fudge — irresistível.",
+      "servings": 12,
+      "time": "1 hora",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            { "quantity": "2 xícaras", "name": "farinha de trigo" },
+            { "quantity": "2 xícaras", "name": "açúcar" },
+            { "quantity": "3/4 xícara", "name": "cacau em pó" },
+            { "quantity": "2 colheres de chá", "name": "bicarbonato de sódio" },
+            { "quantity": "1 colher de chá", "name": "sal" },
+            { "quantity": "2 unidades", "name": "ovos" },
+            { "quantity": "1 xícara", "name": "buttermilk" },
+            { "quantity": "1 xícara", "name": "café forte quente" },
+            { "quantity": "1/2 xícara", "name": "óleo vegetal" }
+          ]
+        },
+        {
+          "name": "Cobertura Fudge",
+          "ingredients": [
+            { "quantity": "200g", "name": "manteiga sem sal" },
+            { "quantity": "1/2 xícara", "name": "cacau em pó" },
+            { "quantity": "3 xícaras", "name": "açúcar de confeiteiro" },
+            { "quantity": "1/3 xícara", "name": "leite integral" }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa",
+          "steps": [
+            "Preaqueça o forno a 175°C. Unte e enfarinhe duas formas redondas de 23 cm.",
+            "Em uma tigela grande, misture todos os ingredientes secos (farinha, açúcar, cacau, bicarbonato e sal).",
+            "Adicione os ovos, o buttermilk e o óleo. Bata por 2 minutos em velocidade média.",
+            "Incorpore o café quente com cuidado — a massa ficará fina, e isso é normal. Divida entre as formas e asse por 30 a 35 minutos."
+          ]
+        },
+        {
+          "name": "Cobertura",
+          "steps": [
+            "Derreta a manteiga em fogo médio. Adicione o cacau em pó e mexa bem até incorporar.",
+            "Retire do fogo e adicione alternadamente o açúcar de confeiteiro e o leite, batendo até obter consistência cremosa e espalhável.",
+            "Recheie e cubra o bolo com a cobertura ainda levemente morno para melhor aderência e acabamento liso."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Torta de Limão Siciliano",
+      "description": "Torta elegante com creme azedinho de limão siciliano e merengue dourado por cima.",
+      "servings": 10,
+      "time": "1 hora e 15 minutos",
+      "image": "https://images.unsplash.com/photo-1502307837336-d59cca9408a9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredientGroups": [
+        {
+          "name": "Massa Podre",
+          "ingredients": [
+            { "quantity": "2 xícaras", "name": "farinha de trigo" },
+            { "quantity": "100g", "name": "manteiga gelada em cubos" },
+            { "quantity": "1/4 xícara", "name": "açúcar" },
+            { "quantity": "1 pitada", "name": "sal" },
+            { "quantity": "4 colheres de sopa", "name": "água gelada" }
+          ]
+        },
+        {
+          "name": "Creme de Limão",
+          "ingredients": [
+            { "quantity": "1 xícara", "name": "suco de limão siciliano (3 a 4 limões)" },
+            { "quantity": "1 colher de sopa", "name": "raspas de limão siciliano" },
+            { "quantity": "1 xícara", "name": "açúcar" },
+            { "quantity": "4 unidades", "name": "ovos" },
+            { "quantity": "100g", "name": "manteiga sem sal" }
+          ]
+        },
+        {
+          "name": "Merengue",
+          "ingredients": [
+            { "quantity": "4 unidades", "name": "claras de ovos" },
+            { "quantity": "1 xícara", "name": "açúcar" },
+            { "quantity": "1/4 colher de chá", "name": "cremor tártaro" }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa",
+          "steps": [
+            "Misture a farinha, o açúcar e o sal. Adicione a manteiga gelada e esfarele com as pontas dos dedos até obter uma farofa grossa.",
+            "Adicione a água gelada aos poucos até a massa se unir. Embrulhe em filme plástico e leve à geladeira por 30 minutos.",
+            "Forre uma forma de 23 cm com a massa, fure com garfo e asse a 180°C por 15 minutos com feijões sobre papel manteiga (pré-assar em branco)."
+          ]
+        },
+        {
+          "name": "Creme",
+          "steps": [
+            "Em banho-maria, misture o suco, as raspas, o açúcar e os ovos. Mexa constantemente em fogo médio até o creme engrossar e cobrir as costas da colher.",
+            "Retire do fogo, adicione a manteiga e mexa até derreter completamente. Despeje sobre a massa já assada e deixe esfriar."
+          ]
+        },
+        {
+          "name": "Merengue",
+          "steps": [
+            "Bata as claras com o cremor tártaro até formar picos suaves. Adicione o açúcar gradualmente e bata até picos firmes e brilhantes.",
+            "Espalhe o merengue sobre o creme de limão e toste com maçarico ou leve ao forno a 200°C por 5 minutos até dourar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ovo Crocante com Páprica na Torrada",
+      "description": "Café da manhã fácil e saboroso de final de semana com ovos cremosos, manteiga temperada com páprica picante e manjericão fresco.",
+      "servings": 1,
+      "time": "10 minutos",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+      "ingredientGroups": [
+        {
+          "name": "Torrada",
+          "ingredients": [
+            { "quantity": "1 fatia", "name": "pão de fermentação natural (ou pão de sua preferência)" },
+            { "quantity": "1 colher de chá", "name": "azeite (para torrar o pão)" }
+          ]
+        },
+        {
+          "name": "Ovos",
+          "ingredients": [
+            { "quantity": "2 unidades", "name": "ovos" },
+            { "quantity": "1 colher de sopa", "name": "manteiga" },
+            { "quantity": "1/2 colher de chá", "name": "páprica picante" },
+            { "quantity": "2 colheres de sopa", "name": "mussarela ralada" },
+            { "quantity": "2 colheres de sopa", "name": "manjericão fresco rasgado" },
+            { "quantity": "1 pitada", "name": "sal e pimenta (opcional)" }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Preparo",
+          "steps": [
+            "Torre o pão com o azeite na frigideira até ficar dourado e crocante. Reserve.",
+            "Na mesma frigideira, derreta a manteiga em fogo baixo e adicione a páprica picante. Misture levemente.",
+            "Quebre os ovos diretamente sobre a manteiga com páprica. Salpique a mussarela ralada, sal e pimenta por cima. Cozinhe até as claras estarem firmes (a gema pode ficar mole ou bem cozida, conforme sua preferência).",
+            "Com cuidado, coloque os ovos sobre a torrada. Finalize com as folhas de manjericão fresco rasgado e sirva imediatamente."
+          ]
+        }
+      ]
+    }
+  ]
+}
