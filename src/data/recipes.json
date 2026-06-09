@@ -11,21 +11,51 @@
         {
           "name": "Massa",
           "ingredients": [
-            { "quantity": "1 xícara", "name": "óleo vegetal (canola ou girassol)" },
-            { "quantity": "4 unidades", "name": "ovos" },
-            { "quantity": "2 xícaras", "name": "açúcar" },
-            { "quantity": "1 xícara", "name": "cenoura picada" },
-            { "quantity": "2 xícaras", "name": "farinha de trigo" },
-            { "quantity": "1 colher de sopa", "name": "fermento em pó" },
-            { "quantity": "1 pitada", "name": "sal" }
+            {
+              "quantity": "1 xícara",
+              "name": "óleo vegetal (canola ou girassol)"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "cenoura picada"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal"
+            }
           ]
         },
         {
           "name": "Ganache de Chocolate",
           "ingredients": [
-            { "quantity": "250g", "name": "chocolate meio amargo" },
-            { "quantity": "250g", "name": "chocolate ao leite" },
-            { "quantity": "1 caixinha", "name": "creme de leite" }
+            {
+              "quantity": "250g",
+              "name": "chocolate meio amargo"
+            },
+            {
+              "quantity": "250g",
+              "name": "chocolate ao leite"
+            },
+            {
+              "quantity": "1 caixinha",
+              "name": "creme de leite"
+            }
           ]
         }
       ],
@@ -60,24 +90,63 @@
         {
           "name": "Massa",
           "ingredients": [
-            { "quantity": "2 xícaras", "name": "farinha de trigo" },
-            { "quantity": "2 xícaras", "name": "açúcar" },
-            { "quantity": "3/4 xícara", "name": "cacau em pó" },
-            { "quantity": "2 colheres de chá", "name": "bicarbonato de sódio" },
-            { "quantity": "1 colher de chá", "name": "sal" },
-            { "quantity": "2 unidades", "name": "ovos" },
-            { "quantity": "1 xícara", "name": "buttermilk" },
-            { "quantity": "1 xícara", "name": "café forte quente" },
-            { "quantity": "1/2 xícara", "name": "óleo vegetal" }
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "3/4 xícara",
+              "name": "cacau em pó"
+            },
+            {
+              "quantity": "2 colheres de chá",
+              "name": "bicarbonato de sódio"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "buttermilk"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "café forte quente"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "óleo vegetal"
+            }
           ]
         },
         {
           "name": "Cobertura Fudge",
           "ingredients": [
-            { "quantity": "200g", "name": "manteiga sem sal" },
-            { "quantity": "1/2 xícara", "name": "cacau em pó" },
-            { "quantity": "3 xícaras", "name": "açúcar de confeiteiro" },
-            { "quantity": "1/3 xícara", "name": "leite integral" }
+            {
+              "quantity": "200g",
+              "name": "manteiga sem sal"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "cacau em pó"
+            },
+            {
+              "quantity": "3 xícaras",
+              "name": "açúcar de confeiteiro"
+            },
+            {
+              "quantity": "1/3 xícara",
+              "name": "leite integral"
+            }
           ]
         }
       ],
@@ -112,29 +181,68 @@
         {
           "name": "Massa Podre",
           "ingredients": [
-            { "quantity": "2 xícaras", "name": "farinha de trigo" },
-            { "quantity": "100g", "name": "manteiga gelada em cubos" },
-            { "quantity": "1/4 xícara", "name": "açúcar" },
-            { "quantity": "1 pitada", "name": "sal" },
-            { "quantity": "4 colheres de sopa", "name": "água gelada" }
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "100g",
+              "name": "manteiga gelada em cubos"
+            },
+            {
+              "quantity": "1/4 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal"
+            },
+            {
+              "quantity": "4 colheres de sopa",
+              "name": "água gelada"
+            }
           ]
         },
         {
           "name": "Creme de Limão",
           "ingredients": [
-            { "quantity": "1 xícara", "name": "suco de limão siciliano (3 a 4 limões)" },
-            { "quantity": "1 colher de sopa", "name": "raspas de limão siciliano" },
-            { "quantity": "1 xícara", "name": "açúcar" },
-            { "quantity": "4 unidades", "name": "ovos" },
-            { "quantity": "100g", "name": "manteiga sem sal" }
+            {
+              "quantity": "1 xícara",
+              "name": "suco de limão siciliano (3 a 4 limões)"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "raspas de limão siciliano"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "100g",
+              "name": "manteiga sem sal"
+            }
           ]
         },
         {
           "name": "Merengue",
           "ingredients": [
-            { "quantity": "4 unidades", "name": "claras de ovos" },
-            { "quantity": "1 xícara", "name": "açúcar" },
-            { "quantity": "1/4 colher de chá", "name": "cremor tártaro" }
+            {
+              "quantity": "4 unidades",
+              "name": "claras de ovos"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "cremor tártaro"
+            }
           ]
         }
       ],
@@ -174,19 +282,43 @@
         {
           "name": "Torrada",
           "ingredients": [
-            { "quantity": "1 fatia", "name": "pão de fermentação natural (ou pão de sua preferência)" },
-            { "quantity": "1 colher de chá", "name": "azeite (para torrar o pão)" }
+            {
+              "quantity": "1 fatia",
+              "name": "pão de fermentação natural (ou pão de sua preferência)"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "azeite (para torrar o pão)"
+            }
           ]
         },
         {
           "name": "Ovos",
           "ingredients": [
-            { "quantity": "2 unidades", "name": "ovos" },
-            { "quantity": "1 colher de sopa", "name": "manteiga" },
-            { "quantity": "1/2 colher de chá", "name": "páprica picante" },
-            { "quantity": "2 colheres de sopa", "name": "mussarela ralada" },
-            { "quantity": "2 colheres de sopa", "name": "manjericão fresco rasgado" },
-            { "quantity": "1 pitada", "name": "sal e pimenta (opcional)" }
+            {
+              "quantity": "2 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "manteiga"
+            },
+            {
+              "quantity": "1/2 colher de chá",
+              "name": "páprica picante"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "mussarela ralada"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "manjericão fresco rasgado"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal e pimenta (opcional)"
+            }
           ]
         }
       ],
@@ -198,6 +330,285 @@
             "Na mesma frigideira, derreta a manteiga em fogo baixo e adicione a páprica picante. Misture levemente.",
             "Quebre os ovos diretamente sobre a manteiga com páprica. Salpique a mussarela ralada, sal e pimenta por cima. Cozinhe até as claras estarem firmes (a gema pode ficar mole ou bem cozida, conforme sua preferência).",
             "Com cuidado, coloque os ovos sobre a torrada. Finalize com as folhas de manjericão fresco rasgado e sirva imediatamente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Brownie de Limão",
+      "description": "Brownies cítricos e macios com cobertura doce de limão.",
+      "servings": 9,
+      "time": "40 minutos",
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=1200&auto=format&fit=crop",
+      "ingredientGroups": [
+        {
+          "name": "Brownie",
+          "ingredients": [
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "raspas de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "manteiga sem sal"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos grandes"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de limão"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1/2 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "fermento químico em pó"
+            }
+          ]
+        },
+        {
+          "name": "Cobertura de Limão",
+          "ingredients": [
+            {
+              "quantity": "1 colher de sopa",
+              "name": "suco de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar de confeiteiro"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "extrato de baunilha"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Preparo",
+          "steps": [
+            "Preaqueça o forno a 180°C e forre uma forma de 20x20 cm com papel manteiga.",
+            "Misture o açúcar com as raspas de limão usando os dedos para liberar os óleos cítricos.",
+            "Adicione a manteiga e aqueça no micro-ondas até derreter completamente. Misture bem.",
+            "Adicione os ovos, o extrato de baunilha e o extrato de limão, batendo até a mistura ficar brilhante.",
+            "Incorpore a farinha, o sal e o fermento delicadamente sem bater demais.",
+            "Despeje a massa na forma e asse por 20 a 25 minutos, até as bordas ficarem firmes.",
+            "Misture os ingredientes da cobertura até ficar lisa e espalhe sobre os brownies frios.",
+            "Deixe a cobertura firmar antes de cortar e servir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cupcakes de Limão com Merengue",
+      "description": "Cupcakes macios recheados com lemon curd e cobertos com merengue dourado.",
+      "servings": 7,
+      "time": "1 hora e 20 minutos",
+      "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=1200&auto=format&fit=crop",
+      "ingredientGroups": [
+        {
+          "name": "Cupcakes",
+          "ingredients": [
+            {
+              "quantity": "1 tablete ou 1/2 xícara",
+              "name": "manteiga sem sal em temperatura ambiente"
+            },
+            {
+              "quantity": "3/4 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos grandes"
+            },
+            {
+              "quantity": "2 colheres de chá",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "1 1/2 xícara",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 1/2 colher de chá",
+              "name": "fermento químico em pó"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "buttermilk caseiro (1/2 xícara de leite + 1/2 colher de sopa de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            }
+          ]
+        },
+        {
+          "name": "Lemon Curd",
+          "ingredients": [
+            {
+              "quantity": "3 unidades",
+              "name": "gemas grandes"
+            },
+            {
+              "quantity": "1 1/2 colher de sopa",
+              "name": "raspas de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "suco de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "6 colheres de sopa",
+              "name": "manteiga"
+            }
+          ]
+        },
+        {
+          "name": "Merengue",
+          "ingredients": [
+            {
+              "quantity": "3 unidades",
+              "name": "claras grandes"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de baunilha"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Cupcakes",
+          "steps": [
+            "Preaqueça o forno a 180°C e prepare uma forma com 7 forminhas grandes.",
+            "Bata a manteiga com o açúcar até ficar leve e fofo.",
+            "Adicione os ovos e a baunilha e misture até incorporar.",
+            "Misture os ingredientes secos em outra tigela e alterne com o buttermilk na massa.",
+            "Distribua a massa nas forminhas e asse por cerca de 27 minutos.",
+            "Deixe esfriar completamente antes de rechear."
+          ]
+        },
+        {
+          "name": "Lemon Curd",
+          "steps": [
+            "Em banho-maria, misture as gemas, raspas de limão, suco de limão e açúcar.",
+            "Mexa constantemente até engrossar.",
+            "Retire do fogo e misture a manteiga até ficar brilhante.",
+            "Passe por uma peneira e leve à geladeira."
+          ]
+        },
+        {
+          "name": "Montagem e Merengue",
+          "steps": [
+            "Faça um buraco no centro de cada cupcake e recheie com lemon curd.",
+            "Tampe novamente com a parte removida da massa.",
+            "Bata as claras até formar espuma e adicione o açúcar e a baunilha até formar picos firmes.",
+            "Cubra os cupcakes com o merengue.",
+            "Leve ao grill do forno por 2 a 4 minutos até dourar levemente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "O Melhor Bolo de Baunilha",
+      "description": "Bolo de baunilha extremamente macio, leve e amanteigado, perfeito para recheios e coberturas.",
+      "servings": 12,
+      "time": "1 hora e 20 minutos",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            {
+              "quantity": "1/2 xícara (113g)",
+              "name": "manteiga sem sal em temperatura ambiente"
+            },
+            {
+              "quantity": "1/2 xícara (105g)",
+              "name": "óleo vegetal"
+            },
+            {
+              "quantity": "1 1/2 xícara (312g)",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos grandes em temperatura ambiente"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "3 xícaras (360g)",
+              "name": "farinha para bolo"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "2 1/2 colheres de chá",
+              "name": "fermento químico em pó"
+            },
+            {
+              "quantity": "1 1/3 xícara (320g)",
+              "name": "buttermilk caseiro (1 1/3 xícara de leite + 1 colher de sopa e 1 colher de chá de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Preparo da Massa",
+          "steps": [
+            "Preaqueça o forno a 160°C.",
+            "Forre 2 formas redondas de 20cm com papel manteiga e unte as laterais com manteiga ou spray desmoldante.",
+            "Prepare o buttermilk caseiro misturando o leite com o suco de limão ou vinagre branco. Deixe descansar por 10 minutos.",
+            "Na batedeira com o batedor globo, bata a manteiga e o óleo em velocidade baixa até incorporar.",
+            "Aumente para velocidade média-alta e bata por cerca de 2 minutos até obter uma mistura lisa e cremosa.",
+            "Com a batedeira ligada, adicione o açúcar aos poucos e continue batendo até a mistura ficar clara, leve e aerada.",
+            "Raspe as laterais e o fundo da tigela com uma espátula.",
+            "Adicione os ovos e o extrato de baunilha e bata novamente até a mistura ficar homogênea e fofa.",
+            "Em outra tigela, misture a farinha, o fermento e o sal.",
+            "Com a batedeira em velocidade baixa, adicione os ingredientes secos alternando com o buttermilk caseiro em 3 etapas.",
+            "Misture apenas até incorporar. Não bata demais para manter a massa leve.",
+            "Divida a massa igualmente entre as formas e espalhe com uma espátula até nivelar.",
+            "Asse por 30 a 40 minutos ou até o bolo crescer, dourar levemente e um palito inserido no centro sair limpo.",
+            "Retire do forno e deixe esfriar por alguns minutos.",
+            "Passe uma faca nas laterais das formas para soltar os bolos.",
+            "Desenforme cuidadosamente, retire o papel manteiga e deixe esfriar completamente sobre uma grade.",
+            "Finalize com buttercream ou a cobertura de sua preferência."
           ]
         }
       ]

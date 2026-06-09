@@ -1,18 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import type { Recipe } from "../types/recipe";
-import recipesData from "../data/recipes.json";
+import { useRecipes } from "@/composables/useRecipes";
 
-const recipes = ref<Recipe[]>([]);
-
-onMounted(() => {
-  recipes.value = recipesData.recipes as Recipe[];
-});
+const { recipes } = useRecipes();
 </script>
 
 <template>
-  <div class="home-wrapper">
-    <!-- Binder spine -->
+  <div class="main-wrapper">
     <div class="binder-spine">
       <div v-for="n in 5" :key="n" class="spine-ring">
         <div class="ring-outer">
@@ -21,12 +14,9 @@ onMounted(() => {
       </div>
     </div>
 
-    <!-- Book page -->
     <div class="book-page">
-      <!-- Decorative margin line -->
       <div class="margin-line"></div>
 
-      <!-- Page content -->
       <div class="page-content">
         <header class="book-header">
           <span class="header-label">Meu Livro de Receitas</span>
@@ -76,22 +66,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.home-wrapper {
-  display: flex;
-  height: 100vh;
-  background: #b8a898;
-  background-image:
-    radial-gradient(ellipse at 20% 50%, #c9baa8 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, #a89888 0%, transparent 50%);
-  align-items: center;
-  justify-content: center;
-  padding: 24px 24px 24px 0;
-}
-
 /* ── Binder spine ── */
 .binder-spine {
   width: 52px;
-  height: 88%;
+  height: 90%;
   background: linear-gradient(
     to right,
     #2a2a2a 0%,
@@ -149,7 +127,7 @@ onMounted(() => {
 /* ── Book page ── */
 .book-page {
   flex: 1;
-  height: 88%;
+  height: 90%;
   background: var(--cream);
   background-image: repeating-linear-gradient(
     0deg,
@@ -164,7 +142,6 @@ onMounted(() => {
     8px 4px 32px rgba(0, 0, 0, 0.15);
   display: flex;
   overflow: hidden;
-  max-width: 900px;
   position: relative;
 }
 
@@ -383,8 +360,6 @@ onMounted(() => {
   .footer-text {
     font-size: 1rem;
   }
-  .home-wrapper {
-    padding: .75rem;
-  }
+  
 }
 </style>

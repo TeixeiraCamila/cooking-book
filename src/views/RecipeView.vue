@@ -1,22 +1,13 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import type { Recipe } from "@/types/recipe";
-import recipesData from "../data/recipes.json";
+import { useRecipe } from "@/composables/useRecipes";
 
 const route = useRoute();
-const recipe = ref<Recipe | null>(null);
-
-onMounted(() => {
-  const id = Number(route.params.id);
-  recipe.value =
-    (recipesData.recipes as Recipe[]).find((r) => r.id === id) ?? null;
-});
+const { recipe } = useRecipe(Number(route.params.id));
 </script>
 
 <template>
-  <div class="recipe-wrapper">
-    <!-- Binder spine -->
+  <div class="main-wrapper">
     <div class="binder-spine">
       <div v-for="n in 5" :key="n" class="spine-ring">
         <div class="ring-outer">
@@ -25,120 +16,119 @@ onMounted(() => {
       </div>
     </div>
 
-    <!-- Book page -->
     <div class="book-page">
-      <!-- Red gingham background -->
-
-      <!-- Back button -->
       <button class="back-btn" @click="$router.push('/')">← voltar</button>
 
-      <!-- Page number -->
-      <div class="page-number">Nº {{ recipe?.id }}</div>
+      <template v-if="recipe">
+        <div class="page-number">Nº {{ recipe.id }}</div>
 
-      <!-- Recipe content -->
-      <div v-if="recipe" class="recipe-content">
-        <!-- Title card with tape -->
-        <div class="title-card">
-          <div class="tape tape--title-left"></div>
-          <div class="tape tape--title-right"></div>
-          <h1 class="recipe-title">{{ recipe.name }}</h1>
-        </div>
+        <div class="recipe-content">
+          <div class="title-card">
+            <div class="tape tape--title-left"></div>
+            <div class="tape tape--title-right"></div>
+            <h1 class="recipe-title">{{ recipe.name }}</h1>
+          </div>
 
-        <!-- Middle section: ingredients card + photo -->
-        <div class="middle-section">
-          <!-- Ingredients card -->
-          <div class="ingredients-card">
-            <div class="paperclip">
-              <div class="paperclip-inner"></div>
-            </div>
-            <div class="tape tape--card-top"></div>
+          <div class="middle-section">
+            <div class="ingredients-card">
+              <div class="paperclip">
+                <div class="paperclip-inner"></div>
+              </div>
+              <div class="tape tape--card-top"></div>
 
-            <h2 class="card-heading">Ingredientes:</h2>
+              <h2 class="card-heading">Ingredientes:</h2>
 
-            <div class="ingredients-body">
-              <div class="ingredients-list-wrap">
-                <div
-                  v-for="group in recipe.ingredientGroups"
-                  :key="group.name"
-                  class="ingredient-group"
-                >
-                  <h3
-                    v-if="recipe.ingredientGroups.length > 1"
-                    class="group-name"
+              <div class="ingredients-body">
+                <div class="ingredients-list-wrap">
+                  <div
+                    v-for="group in recipe.ingredientGroups"
+                    :key="group.name"
+                    class="ingredient-group"
                   >
-                    {{ group.name }}
-                  </h3>
-                  <ul class="ingredients-list">
-                    <li
-                      v-for="ing in group.ingredients"
-                      :key="ing.name"
-                      class="ingredient-item"
+                    <h3
+                      v-if="recipe.ingredientGroups.length > 1"
+                      class="group-name"
                     >
-                      <span class="ing-bullet">•</span>
-                      <span class="ing-text">
-                        <span class="ing-qty">{{ ing.quantity }}</span>
-                        {{ ing.name }}
-                      </span>
-                    </li>
-                  </ul>
+                      {{ group.name }}
+                    </h3>
+                    <ul class="ingredients-list">
+                      <li
+                        v-for="ing in group.ingredients"
+                        :key="ing.name"
+                        class="ingredient-item"
+                      >
+                        <span class="ing-bullet">•</span>
+                        <span class="ing-text">
+                          <span class="ing-qty">{{ ing.quantity }}</span>
+                          {{ ing.name }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="dish-photo-wrap">
+                  <div class="tape tape--photo-tl"></div>
+                  <div class="tape tape--photo-tr"></div>
+                  <img
+                    :src="recipe.image"
+                    :alt="recipe.name"
+                    class="dish-photo"
+                  />
                 </div>
               </div>
 
-              <!-- Dish photo inside ingredients card -->
-              <div class="dish-photo-wrap">
-                <div class="tape tape--photo-tl"></div>
-                <div class="tape tape--photo-tr"></div>
-                <img
-                  :src="recipe.image"
-                  :alt="recipe.name"
-                  class="dish-photo"
-                />
+              <div class="recipe-meta">
+                <span class="meta-badge">🕐 {{ recipe.time }}</span>
+                <span class="meta-badge">🍽 {{ recipe.servings }} porções</span>
               </div>
             </div>
+          </div>
 
-            <!-- Meta info -->
-            <div class="recipe-meta">
-              <span class="meta-badge">🕐 {{ recipe.time }}</span>
-              <span class="meta-badge">🍽 {{ recipe.servings }} porções</span>
+          <div class="method-card">
+            <div class="paperclip paperclip--right">
+              <div class="paperclip-inner"></div>
             </div>
-          </div>
-        </div>
+            <h2 class="card-heading card-heading--method">Modo de Preparo:</h2>
 
-        <!-- Method card -->
-        <div class="method-card">
-          <div class="paperclip paperclip--right">
-            <div class="paperclip-inner"></div>
-          </div>
-          <h2 class="card-heading card-heading--method">Modo de Preparo:</h2>
-
-          <div class="method-groups">
-            <div
-              v-for="group in recipe.preparationGroups"
-              :key="group.name"
-              class="method-group"
-            >
-              <h3
-                v-if="recipe.preparationGroups.length > 1"
-                class="method-group-name"
+            <div class="method-groups">
+              <div
+                v-for="group in recipe.preparationGroups"
+                :key="group.name"
+                class="method-group"
               >
-                {{ group.name }}
-              </h3>
-              <ol class="method-list">
-                <li
-                  v-for="(step, i) in group.steps"
-                  :key="i"
-                  class="method-item"
+                <h3
+                  v-if="recipe.preparationGroups.length > 1"
+                  class="method-group-name"
                 >
-                  <span class="step-bullet">•</span>
-                  {{ step }}
-                </li>
-              </ol>
+                  {{ group.name }}
+                </h3>
+                <ol class="method-list">
+                  <li
+                    v-for="(step, i) in group.steps"
+                    :key="i"
+                    class="method-item"
+                  >
+                    <span class="step-bullet">•</span>
+                    {{ step }}
+                  </li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
+      </template>
+
+      <div v-else class="notfound-message">
+        <p class="notfound-code">Receita não encontrada</p>
+        <p class="notfound-hint">
+          O ID "{{ $route.params.id }}" não corresponde a nenhuma receita.
+        </p>
+        <button class="notfound-btn" @click="$router.push('/')">
+          ← voltar para o livro
+        </button>
       </div>
 
-      <!-- Decorative stamp -->
       <div class="stamp">
         <div class="stamp-inner">
           <span class="stamp-icon">🍓</span>
@@ -148,23 +138,12 @@ onMounted(() => {
   </div>
 </template>
 <style scoped>
-/* ── Layout ── */
-.recipe-wrapper {
-  display: flex;
-  height: 100vh;
-  background: #b8a898;
-  background-image:
-    radial-gradient(ellipse at 20% 50%, #c9baa8 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, #a89888 0%, transparent 50%);
-  align-items: center;
-  justify-content: center;
-  padding: 24px 24px 24px 0;
-}
+
 
 /* ── Binder spine ── */
 .binder-spine {
   width: 52px;
-  height: 88%;
+  height: 90%;
   background: linear-gradient(
     to right,
     #2a2a2a 0%,
@@ -208,8 +187,7 @@ onMounted(() => {
 /* ── Book page ── */
 .book-page {
   flex: 1;
-  height: 88%;
-  max-width: 860px;
+  height: 90%;
   border-radius: 0 6px 6px 0;
   box-shadow:
     4px 0 24px rgba(0, 0, 0, 0.25),
@@ -624,5 +602,64 @@ onMounted(() => {
 }
 .stamp-inner {
   font-size: 22px;
+}
+
+/* ── Not found ── */
+.notfound-message {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 40px;
+  text-align: center;
+  flex: 1;
+}
+
+.notfound-code {
+  font-family: var(--font-decorative);
+  font-size: 28px;
+  color: var(--brown);
+}
+
+.notfound-hint {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--cream);
+  line-height: 1.4;
+}
+
+.notfound-btn {
+  margin-top: 8px;
+  font-family: var(--font-decorative);
+  font-size: 16px;
+  color: var(--cream);
+  background: var(--red);
+  padding: 8px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.notfound-btn:hover {
+  background: #8a1c1c;
+}
+
+@media (max-width: 600px) {
+  .binder-spine {
+    width: 32px;
+  }
+
+  .recipe-content {
+    padding: 14px 16px 14px;
+  }
+
+  .recipe-title {
+    white-space: normal;
+    font-size: 26px;
+  }
 }
 </style>
