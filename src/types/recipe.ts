@@ -17,6 +17,7 @@ export interface Recipe {
   id: number
   name: string
   description: string
+  category: string
   servings: number
   time: string
   image: string

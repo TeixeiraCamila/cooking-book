@@ -50,7 +50,7 @@ const { recipes } = useRecipes();
                 <span class="meta-item"> {{ recipe.servings }} porções</span>
               </p>
             </div>
-            <div class="card-tape card-tape--top"></div>
+            <div class="card-tape card-tape--top">{{ recipe.category }}</div>
           </router-link>
         </div>
 
@@ -242,12 +242,16 @@ const { recipes } = useRecipes();
 
 .card-tape {
   position: absolute;
-  width: 48px;
+  width: 140px;
   height: 14px;
   background: rgb(255, 230, 150);
   border-left: 1px solid rgba(200, 180, 100, 0.4);
   border-right: 1px solid rgba(200, 180, 100, 0.4);
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 
 .card-tape--top {
@@ -360,6 +364,5 @@ const { recipes } = useRecipes();
   .footer-text {
     font-size: 1rem;
   }
-  
 }
 </style>
