@@ -619,6 +619,110 @@
           ]
         }
       ]
+    },
+    {
+      "id": 8,
+      "name": "Frango ao Molho de Tomate",
+      "description": "Frango dourado e suculento cozido em um molho encorpado de tomate, cebola, alho e páprica, finalizado com salsinha e cebolinha.",
+      "category": "Carnes e Aves",
+      "servings": 4,
+      "time": "22–24 minutos",
+      "image": "",
+      "ingredientGroups": [
+        {
+          "name": "Frango",
+          "ingredients": [
+            {
+              "quantity": "1 kg",
+              "name": "pedaços de frango (asas, drumettes, coxas ou peito)"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "pimenta dedo-de-moça ou pimenta-do-reino"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "sal"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "páprica, de preferência defumada"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "vinagre ou suco de 1 limão"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "óleo, azeite, banha ou outra gordura para cozinhar"
+            }
+          ]
+        },
+        {
+          "name": "Molho",
+          "ingredients": [
+            {
+              "quantity": "1 unidade",
+              "name": "cebola grande, bem picada"
+            },
+            {
+              "quantity": "6 dentes",
+              "name": "alho, picado ou triturado"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "tomates maduros, picados com pele e sementes"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "extrato de tomate"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "colorau, opcional para substituir o extrato de tomate"
+            },
+            {
+              "quantity": "aproximadamente 350 ml",
+              "name": "água"
+            },
+            {
+              "quantity": "a gosto",
+              "name": "salsinha e cebolinha frescas, picadas"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Frango",
+          "steps": [
+            "Tempere os pedaços de frango com sal, pimenta, páprica e vinagre ou suco de limão. Misture bem.",
+            "Aqueça uma panela larga em fogo alto com um fio de óleo ou gordura. Quando estiver bem quente, coloque os pedaços de frango com a pele para baixo, formando uma única camada. Tampe e cozinhe por cerca de 5 minutos, até dourar.",
+            "Vire os pedaços, tampe novamente e cozinhe por mais 5 minutos, até dourar o outro lado. O objetivo é apenas dourar o frango, pois ele terminará de cozinhar no molho."
+          ]
+        },
+        {
+          "name": "Molho",
+          "steps": [
+            "Abaixe um pouco o fogo. Adicione o alho picado e misture para liberar o aroma.",
+            "Acrescente a cebola e refogue até ficar dourada e transparente, por aproximadamente 4 minutos.",
+            "Adicione os tomates picados e o extrato de tomate. Misture bem para envolver todos os ingredientes e deixe fritar levemente por alguns instantes para desenvolver o sabor.",
+            "Adicione aproximadamente 350 ml de água, o suficiente para quase cobrir o frango. Misture bem, tampe a panela e cozinhe em fogo médio-baixo por 8 a 10 minutos, até o frango estar completamente cozido e o molho engrossar.",
+            "Quando o frango estiver cozido e o molho encorpado e brilhante, retire do fogo e misture a salsinha e a cebolinha frescas. Sirva imediatamente."
+          ]
+        }
+      ],
+      "notes": [
+        "Qualquer corte de frango pode ser usado: drumettes, asas, coxas ou peito. Drumettes e asas ficam mais suculentos.",
+        "Temperar o frango com antecedência, inclusive durante a noite, deixa o sabor mais intenso.",
+        "A panela precisa estar bem quente antes de colocar o frango para que ele doure em vez de cozinhar no próprio vapor.",
+        "Doure primeiro o lado da pele e depois vire. Evite mexer frequentemente durante o processo de dourar.",
+        "Omitir a pimenta se crianças forem comer.",
+        "Páprica defumada é a opção preferida.",
+        "O extrato de tomate é opcional. Sem ele, o molho ficará menos vermelho. O colorau pode ser usado como substituto.",
+        "O mesmo método pode ser feito na panela de pressão.",
+        "Sirva com polenta, arroz e feijão ou macarrão."
+      ]
     }
   ]
 }
