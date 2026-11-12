@@ -12,51 +12,21 @@
         {
           "name": "Massa",
           "ingredients": [
-            {
-              "quantity": "1 xícara",
-              "name": "óleo vegetal (canola ou girassol)"
-            },
-            {
-              "quantity": "4 unidades",
-              "name": "ovos"
-            },
-            {
-              "quantity": "2 xícaras",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "cenoura picada"
-            },
-            {
-              "quantity": "2 xícaras",
-              "name": "farinha de trigo"
-            },
-            {
-              "quantity": "1 colher de sopa",
-              "name": "fermento em pó"
-            },
-            {
-              "quantity": "1 pitada",
-              "name": "sal"
-            }
+            "1 xícara de óleo vegetal (canola ou girassol)",
+            "4 unidades de ovos",
+            "2 xícaras de açúcar",
+            "1 xícara de cenoura picada",
+            "2 xícaras de farinha de trigo",
+            "1 colher de sopa de fermento em pó",
+            "1 pitada de sal"
           ]
         },
         {
           "name": "Ganache de Chocolate",
           "ingredients": [
-            {
-              "quantity": "250g",
-              "name": "chocolate meio amargo"
-            },
-            {
-              "quantity": "250g",
-              "name": "chocolate ao leite"
-            },
-            {
-              "quantity": "1 caixinha",
-              "name": "creme de leite"
-            }
+            "250g de chocolate meio amargo",
+            "250g de chocolate ao leite",
+            "1 caixinha de creme de leite"
           ]
         }
       ],
@@ -92,63 +62,24 @@
         {
           "name": "Massa",
           "ingredients": [
-            {
-              "quantity": "2 xícaras",
-              "name": "farinha de trigo"
-            },
-            {
-              "quantity": "2 xícaras",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "3/4 xícara",
-              "name": "cacau em pó"
-            },
-            {
-              "quantity": "2 colheres de chá",
-              "name": "bicarbonato de sódio"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "sal"
-            },
-            {
-              "quantity": "2 unidades",
-              "name": "ovos"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "buttermilk"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "café forte quente"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "óleo vegetal"
-            }
+            "2 xícaras de farinha de trigo",
+            "2 xícaras de açúcar",
+            "3/4 xícara de cacau em pó",
+            "2 colheres de chá de bicarbonato de sódio",
+            "1 colher de chá de sal",
+            "2 unidades de ovos",
+            "1 xícara de buttermilk",
+            "1 xícara de café forte quente",
+            "1/2 xícara de óleo vegetal"
           ]
         },
         {
           "name": "Cobertura Fudge",
           "ingredients": [
-            {
-              "quantity": "200g",
-              "name": "manteiga sem sal"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "cacau em pó"
-            },
-            {
-              "quantity": "3 xícaras",
-              "name": "açúcar de confeiteiro"
-            },
-            {
-              "quantity": "1/3 xícara",
-              "name": "leite integral"
-            }
+            "200g de manteiga sem sal",
+            "1/2 xícara de cacau em pó",
+            "3 xícaras de açúcar de confeiteiro",
+            "1/3 xícara de leite integral"
           ]
         }
       ],
@@ -184,68 +115,29 @@
         {
           "name": "Massa Podre",
           "ingredients": [
-            {
-              "quantity": "2 xícaras",
-              "name": "farinha de trigo"
-            },
-            {
-              "quantity": "100g",
-              "name": "manteiga gelada em cubos"
-            },
-            {
-              "quantity": "1/4 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "1 pitada",
-              "name": "sal"
-            },
-            {
-              "quantity": "4 colheres de sopa",
-              "name": "água gelada"
-            }
+            "2 xícaras de farinha de trigo",
+            "100g de manteiga gelada em cubos",
+            "1/4 xícara de açúcar",
+            "1 pitada de sal",
+            "4 colheres de sopa de água gelada"
           ]
         },
         {
           "name": "Creme de Limão",
           "ingredients": [
-            {
-              "quantity": "1 xícara",
-              "name": "suco de limão siciliano (3 a 4 limões)"
-            },
-            {
-              "quantity": "1 colher de sopa",
-              "name": "raspas de limão siciliano"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "4 unidades",
-              "name": "ovos"
-            },
-            {
-              "quantity": "100g",
-              "name": "manteiga sem sal"
-            }
+            "1 xícara de suco de limão siciliano (3 a 4 limões)",
+            "1 colher de sopa de raspas de limão siciliano",
+            "1 xícara de açúcar",
+            "4 unidades de ovos",
+            "100g de manteiga sem sal"
           ]
         },
         {
           "name": "Merengue",
           "ingredients": [
-            {
-              "quantity": "4 unidades",
-              "name": "claras de ovos"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "1/4 colher de chá",
-              "name": "cremor tártaro"
-            }
+            "4 unidades de claras de ovos",
+            "1 xícara de açúcar",
+            "1/4 colher de chá de cremor tártaro"
           ]
         }
       ],
@@ -286,43 +178,19 @@
         {
           "name": "Torrada",
           "ingredients": [
-            {
-              "quantity": "1 fatia",
-              "name": "pão de fermentação natural (ou pão de sua preferência)"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "azeite (para torrar o pão)"
-            }
+            "1 fatia de pão de fermentação natural (ou pão de sua preferência)",
+            "1 colher de chá de azeite (para torrar o pão)"
           ]
         },
         {
           "name": "Ovos",
           "ingredients": [
-            {
-              "quantity": "2 unidades",
-              "name": "ovos"
-            },
-            {
-              "quantity": "1 colher de sopa",
-              "name": "manteiga"
-            },
-            {
-              "quantity": "1/2 colher de chá",
-              "name": "páprica picante"
-            },
-            {
-              "quantity": "2 colheres de sopa",
-              "name": "mussarela ralada"
-            },
-            {
-              "quantity": "2 colheres de sopa",
-              "name": "manjericão fresco rasgado"
-            },
-            {
-              "quantity": "1 pitada",
-              "name": "sal e pimenta (opcional)"
-            }
+            "2 unidades de ovos",
+            "1 colher de sopa de manteiga",
+            "1/2 colher de chá de páprica picante",
+            "2 colheres de sopa de mussarela ralada",
+            "2 colheres de sopa de manjericão fresco rasgado",
+            "1 pitada de sal e pimenta (opcional)"
           ]
         }
       ],
@@ -350,59 +218,23 @@
         {
           "name": "Brownie",
           "ingredients": [
-            {
-              "quantity": "1 xícara",
-              "name": "açúcar refinado"
-            },
-            {
-              "quantity": "2 unidades",
-              "name": "raspas de limão"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "manteiga sem sal"
-            },
-            {
-              "quantity": "2 unidades",
-              "name": "ovos grandes"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "extrato de baunilha"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "extrato de limão"
-            },
-            {
-              "quantity": "1 xícara",
-              "name": "farinha de trigo"
-            },
-            {
-              "quantity": "1/2 colher de chá",
-              "name": "sal"
-            },
-            {
-              "quantity": "1/4 colher de chá",
-              "name": "fermento químico em pó"
-            }
+            "1 xícara de açúcar refinado",
+            "2 unidades de raspas de limão",
+            "1/2 xícara de manteiga sem sal",
+            "2 unidades de ovos grandes",
+            "1 colher de chá de extrato de baunilha",
+            "1 colher de chá de extrato de limão",
+            "1 xícara de farinha de trigo",
+            "1/2 colher de chá de sal",
+            "1/4 colher de chá de fermento químico em pó"
           ]
         },
         {
           "name": "Cobertura de Limão",
           "ingredients": [
-            {
-              "quantity": "1 colher de sopa",
-              "name": "suco de limão"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "açúcar de confeiteiro"
-            },
-            {
-              "quantity": "1/4 colher de chá",
-              "name": "extrato de baunilha"
-            }
+            "1 colher de sopa de suco de limão",
+            "1/2 xícara de açúcar de confeiteiro",
+            "1/4 colher de chá de extrato de baunilha"
           ]
         }
       ],
@@ -429,85 +261,37 @@
       "category": "Bolos e Cupcakes",
       "servings": 7,
       "time": "1 hora e 20 minutos",
-      "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://i.pinimg.com/736x/28/2e/79/282e79ab26cb57f674df75c589317cdb.jpg",
       "ingredientGroups": [
         {
           "name": "Cupcakes",
           "ingredients": [
-            {
-              "quantity": "1 tablete ou 1/2 xícara",
-              "name": "manteiga sem sal em temperatura ambiente"
-            },
-            {
-              "quantity": "3/4 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "2 unidades",
-              "name": "ovos grandes"
-            },
-            {
-              "quantity": "2 colheres de chá",
-              "name": "extrato de baunilha"
-            },
-            {
-              "quantity": "1 1/2 xícara",
-              "name": "farinha de trigo"
-            },
-            {
-              "quantity": "1 1/2 colher de chá",
-              "name": "fermento químico em pó"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "sal"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "buttermilk caseiro (1/2 xícara de leite + 1/2 colher de sopa de suco de limão ou vinagre branco, descansar por 10 minutos)"
-            }
+            "1 tablete ou 1/2 xícara de manteiga sem sal em temperatura ambiente",
+            "3/4 xícara de açúcar",
+            "2 unidades de ovos grandes",
+            "2 colheres de chá de extrato de baunilha",
+            "1 1/2 xícara de farinha de trigo",
+            "1 1/2 colher de chá de fermento químico em pó",
+            "1 colher de chá de sal",
+            "1/2 xícara de buttermilk caseiro (1/2 xícara de leite + 1/2 colher de sopa de suco de limão ou vinagre branco, descansar por 10 minutos)"
           ]
         },
         {
           "name": "Lemon Curd",
           "ingredients": [
-            {
-              "quantity": "3 unidades",
-              "name": "gemas grandes"
-            },
-            {
-              "quantity": "1 1/2 colher de sopa",
-              "name": "raspas de limão"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "suco de limão"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "6 colheres de sopa",
-              "name": "manteiga"
-            }
+            "3 unidades de gemas grandes",
+            "1 1/2 colher de sopa de raspas de limão",
+            "1/2 xícara de suco de limão",
+            "1/2 xícara de açúcar",
+            "6 colheres de sopa de manteiga"
           ]
         },
         {
           "name": "Merengue",
           "ingredients": [
-            {
-              "quantity": "3 unidades",
-              "name": "claras grandes"
-            },
-            {
-              "quantity": "1/2 xícara",
-              "name": "açúcar"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "extrato de baunilha"
-            }
+            "3 unidades de claras grandes",
+            "1/2 xícara de açúcar",
+            "1 colher de chá de extrato de baunilha"
           ]
         }
       ],
@@ -556,42 +340,15 @@
         {
           "name": "Massa",
           "ingredients": [
-            {
-              "quantity": "1/2 xícara (113g)",
-              "name": "manteiga sem sal em temperatura ambiente"
-            },
-            {
-              "quantity": "1/2 xícara (105g)",
-              "name": "óleo vegetal"
-            },
-            {
-              "quantity": "1 1/2 xícara (312g)",
-              "name": "açúcar refinado"
-            },
-            {
-              "quantity": "4 unidades",
-              "name": "ovos grandes em temperatura ambiente"
-            },
-            {
-              "quantity": "2 colheres de sopa",
-              "name": "extrato de baunilha"
-            },
-            {
-              "quantity": "3 xícaras (360g)",
-              "name": "farinha para bolo"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "sal"
-            },
-            {
-              "quantity": "2 1/2 colheres de chá",
-              "name": "fermento químico em pó"
-            },
-            {
-              "quantity": "1 1/3 xícara (320g)",
-              "name": "buttermilk caseiro (1 1/3 xícara de leite + 1 colher de sopa e 1 colher de chá de suco de limão ou vinagre branco, descansar por 10 minutos)"
-            }
+            "1/2 xícara (113g) de manteiga sem sal em temperatura ambiente",
+            "1/2 xícara (105g) de óleo vegetal",
+            "1 1/2 xícara (312g) de açúcar refinado",
+            "4 unidades de ovos grandes em temperatura ambiente",
+            "2 colheres de sopa de extrato de baunilha",
+            "3 xícaras (360g) de farinha para bolo",
+            "1 colher de chá de sal",
+            "2 1/2 colheres de chá de fermento químico em pó",
+            "1 1/3 xícara (320g) de buttermilk caseiro (1 1/3 xícara de leite + 1 colher de sopa e 1 colher de chá de suco de limão ou vinagre branco, descansar por 10 minutos)"
           ]
         }
       ],
@@ -627,68 +384,29 @@
       "category": "Carnes e Aves",
       "servings": 4,
       "time": "22–24 minutos",
-      "image": "",
+      "image": "https://i.pinimg.com/1200x/13/05/80/130580dd324652ff7c8e8320daf37ee0.jpg",
       "ingredientGroups": [
         {
           "name": "Frango",
           "ingredients": [
-            {
-              "quantity": "1 kg",
-              "name": "pedaços de frango (asas, drumettes, coxas ou peito)"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "pimenta dedo-de-moça ou pimenta-do-reino"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "sal"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "páprica, de preferência defumada"
-            },
-            {
-              "quantity": "2 colheres de sopa",
-              "name": "vinagre ou suco de 1 limão"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "óleo, azeite, banha ou outra gordura para cozinhar"
-            }
+            "1 kg de pedaços de frango (asas, drumettes, coxas ou peito)",
+            "a gosto de pimenta dedo-de-moça ou pimenta-do-reino",
+            "a gosto de sal",
+            "a gosto de páprica, de preferência defumada",
+            "2 colheres de sopa de vinagre ou suco de 1 limão",
+            "a gosto de óleo, azeite, banha ou outra gordura para cozinhar"
           ]
         },
         {
           "name": "Molho",
           "ingredients": [
-            {
-              "quantity": "1 unidade",
-              "name": "cebola grande, bem picada"
-            },
-            {
-              "quantity": "6 dentes",
-              "name": "alho, picado ou triturado"
-            },
-            {
-              "quantity": "2 unidades",
-              "name": "tomates maduros, picados com pele e sementes"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "extrato de tomate"
-            },
-            {
-              "quantity": "1 colher de chá",
-              "name": "colorau, opcional para substituir o extrato de tomate"
-            },
-            {
-              "quantity": "aproximadamente 350 ml",
-              "name": "água"
-            },
-            {
-              "quantity": "a gosto",
-              "name": "salsinha e cebolinha frescas, picadas"
-            }
+            "1 unidade de cebola grande, bem picada",
+            "6 dentes de alho, picado ou triturado",
+            "2 unidades de tomates maduros, picados com pele e sementes",
+            "a gosto de extrato de tomate",
+            "1 colher de chá de colorau, opcional para substituir o extrato de tomate",
+            "aproximadamente 350 ml de água",
+            "a gosto de salsinha e cebolinha frescas, picadas"
           ]
         }
       ],
@@ -722,6 +440,212 @@
         "O extrato de tomate é opcional. Sem ele, o molho ficará menos vermelho. O colorau pode ser usado como substituto.",
         "O mesmo método pode ser feito na panela de pressão.",
         "Sirva com polenta, arroz e feijão ou macarrão."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bolo Nuvem de Leite Ninho",
+      "description": "Bolo macio de leite Ninho com recheio aerado e cremoso de leite em pó, umedecido com calda de leite condensado.",
+      "category": "Bolos e Cupcakes",
+      "servings": 10,
+      "time": "Aproximadamente 4 horas",
+      "image": "https://i.pinimg.com/1200x/ce/24/69/ce2469c8d80e3be631cc6041e5ad708d.jpg",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            "3 unidades de ovos",
+            "1 xícara de chá de açúcar",
+            "3/4 xícara de chá de óleo vegetal",
+            "110 ml de leite integral",
+            "1/4 xícara de chá de leite Ninho",
+            "1 xícara de chá de farinha de trigo",
+            "1 colher de sopa de fermento químico em pó"
+          ]
+        },
+        {
+          "name": "Recheio",
+          "ingredients": [
+            "1/2 xícara de chá de água",
+            "6g de gelatina incolor sem sabor",
+            "400g de creme de leite",
+            "285g de leite condensado",
+            "1 1/2 xícara de chá de leite em pó",
+            "150 ml de chantilly líquido gelado"
+          ]
+        },
+        {
+          "name": "Calda",
+          "ingredients": [
+            "250 ml de leite integral",
+            "110g de leite condensado",
+            "2 colheres de sopa de leite em pó"
+          ]
+        },
+        {
+          "name": "Finalização",
+          "ingredients": [
+            "A gosto de leite em pó para polvilhar"
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa do Bolo",
+          "steps": [
+            "Preaqueça o forno a 180°C e unte uma forma.",
+            "Em uma tigela, bata bem os ovos até ficarem homogêneos e levemente aerados.",
+            "Adicione o açúcar e o óleo aos ovos e misture bem.",
+            "Acrescente o leite em pó e o leite integral. Misture até incorporar.",
+            "Adicione a farinha de trigo e misture até obter uma massa homogênea.",
+            "Por último, acrescente o fermento químico e misture delicadamente.",
+            "Despeje a massa na forma untada e nivele a superfície.",
+            "Leve ao forno preaquecido a 180°C por aproximadamente 25 minutos, ou até que um palito inserido no centro saia limpo.",
+            "Retire do forno e deixe esfriar completamente antes de montar o bolo."
+          ]
+        },
+        {
+          "name": "Recheio de Leite Ninho",
+          "steps": [
+            "Coloque a água em um recipiente e polvilhe a gelatina incolor por cima.",
+            "Deixe hidratar conforme as instruções da embalagem.",
+            "Dissolva a gelatina hidratada conforme as instruções da embalagem e reserve.",
+            "Em uma tigela, misture o creme de leite, o leite condensado e o leite em pó até obter um creme homogêneo.",
+            "Adicione a gelatina dissolvida à mistura e mexa bem para incorporar.",
+            "Em outro recipiente, bata o chantilly gelado até atingir uma consistência firme.",
+            "Incorpore delicadamente o chantilly batido ao creme de leite Ninho, mantendo a textura aerada.",
+            "Reserve o recheio até a montagem."
+          ]
+        },
+        {
+          "name": "Calda",
+          "steps": [
+            "Em um recipiente, misture o leite integral, o leite condensado e o leite em pó.",
+            "Mexa bem até dissolver completamente o leite em pó e obter uma calda homogênea.",
+            "Reserve para umedecer as camadas do bolo."
+          ]
+        },
+        {
+          "name": "Montagem e Finalização",
+          "steps": [
+            "Depois que o bolo estiver completamente frio, corte a massa horizontalmente em duas camadas.",
+            "Coloque a primeira metade da massa na forma utilizada para a montagem.",
+            "Umedeça a primeira camada com parte da calda, distribuindo uniformemente.",
+            "Despeje todo o recheio de leite Ninho sobre a massa e espalhe para nivelar.",
+            "Leve ao congelador por 1 hora para o recheio começar a firmar.",
+            "Coloque cuidadosamente a segunda metade da massa sobre o recheio.",
+            "Umedeça a parte superior com o restante da calda.",
+            "Cubra a forma com papel-filme.",
+            "Leve ao congelador por mais 2 horas ou à geladeira por pelo menos 6 horas, até o recheio ficar firme.",
+            "Retire o bolo da forma e finalize polvilhando leite em pó sobre toda a superfície.",
+            "Sirva gelado."
+          ]
+        }
+      ],
+      "notes": [
+        "O bolo precisa estar completamente frio antes de receber o recheio.",
+        "O chantilly deve estar bem gelado para atingir uma consistência firme.",
+        "A gelatina deve ser hidratada e dissolvida conforme as instruções da embalagem.",
+        "Para uma montagem mais firme, utilize uma forma com fundo removível ou aro de montagem.",
+        "A refrigeração pode ser feita no congelador por 2 horas ou na geladeira por pelo menos 6 horas."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ovo com Abacate",
+      "description": "Torradas integrais com abacate amassado e ovos preparados na frigideira.",
+      "category": "Café da Manhã",
+      "servings": 2,
+      "time": "15 minutos",
+      "image": "https://i.pinimg.com/1200x/d8/aa/3c/d8aa3cd35a16a70efb15a1231a8fde27.jpg",
+      "ingredientGroups": [
+        {
+          "name": "Ingredientes",
+          "ingredients": [
+            "2 unidades de torradas integrais",
+            "1 fio de azeite",
+            "2 unidades de ovos",
+            "1 unidade pequena de abacate",
+            "A gosto de sal e pimenta-do-reino"
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Preparo",
+          "steps": [
+            "Corte o abacate ao meio e retire a polpa, descartando a casca e o caroço.",
+            "Pique o abacate em cubos e amasse até formar uma consistência de patê. Reserve.",
+            "Aqueça uma frigideira e acrescente um fio de azeite.",
+            "Adicione os ovos e prepare-os ao seu gosto, temperando com sal e pimenta-do-reino.",
+            "Espalhe o abacate amassado sobre as torradas integrais.",
+            "Coloque os ovos preparados por cima do abacate e sirva."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Muffins de Mirtilo com Farofinha",
+      "description": "Muffins macios de mirtilo com raspas de limão-siciliano e cobertura crocante de farofinha.",
+      "category": "Bolos e Cupcakes",
+      "servings": 9,
+      "time": "Aproximadamente 40 minutos",
+      "image": "https://i.panelinha.com.br/i1/64-bk-7970-blog-muffin-de-mirtilo-1.webp",
+      "ingredientGroups": [
+        {
+          "name": "Cobertura",
+          "ingredients": [
+            "1 colher de sopa de manteiga gelada",
+            "2 colheres de sopa de açúcar",
+            "2 colheres de sopa de farinha de trigo"
+          ]
+        },
+        {
+          "name": "Massa",
+          "ingredients": [
+            "3/4 de xícara de chá (aproximadamente 125 g) de mirtilos frescos",
+            "1 xícara de chá de farinha de trigo",
+            "3/4 de xícara de chá de açúcar",
+            "1 colher de chá de fermento em pó",
+            "1/3 de xícara de chá de iogurte natural sem açúcar e sem adoçante",
+            "50 g de manteiga",
+            "1 unidade de ovo",
+            "Raspas de 1 unidade limão-siciliano"
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Cobertura",
+          "steps": [
+            "Em uma tigela, misture a manteiga gelada, o açúcar e a farinha de trigo.",
+            "Misture com a ponta dos dedos até formar uma farofinha. Reserve."
+          ]
+        },
+        {
+          "name": "Massa",
+          "steps": [
+            "Preaqueça o forno a 200 °C.",
+            "Unte 9 forminhas individuais de muffin com manteiga e polvilhe farinha de trigo. Retire o excesso. Se preferir, utilize forminhas de papel para cupcake.",
+            "Derreta os 50 g de manteiga no micro-ondas por aproximadamente 1 minuto.",
+            "Em uma tigela grande, misture a farinha de trigo, o açúcar, o fermento em pó e as raspas de limão-siciliano.",
+            "Abra um espaço no centro dos ingredientes secos e adicione o ovo, o iogurte natural e a manteiga derretida.",
+            "Misture com um batedor de arame até obter uma massa lisa.",
+            "Separe 1/4 dos mirtilos para finalizar os muffins.",
+            "Adicione os mirtilos restantes à massa e misture delicadamente com uma espátula.",
+            "Distribua a massa nas forminhas, preenchendo aproximadamente 2/3 de cada uma.",
+            "Coloque 3 mirtilos sobre cada muffin.",
+            "Distribua a farofinha reservada por cima.",
+            "Leve ao forno por aproximadamente 20 minutos, ou até os muffins crescerem e ficarem dourados."
+          ]
+        }
+      ],
+      "notes": [
+        "Rendimento: 9 muffins individuais.",
+        "Os muffins podem ser congelados por até 3 meses.",
+        "Para descongelar, aqueça no micro-ondas por aproximadamente 15 segundos.",
+        "Temperatura do forno: 200 °C."
       ]
     }
   ]

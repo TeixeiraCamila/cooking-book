@@ -54,14 +54,11 @@ const { recipe } = useRecipe(Number(route.params.id));
                     <ul class="ingredients-list">
                       <li
                         v-for="ing in group.ingredients"
-                        :key="ing.name"
+                        :key="ing"
                         class="ingredient-item"
                       >
                         <span class="ing-bullet">•</span>
-                        <span class="ing-text">
-                          <span class="ing-qty">{{ ing.quantity }}</span>
-                          {{ ing.name }}
-                        </span>
+                        <span class="ing-text">{{ ing }}</span>
                       </li>
                     </ul>
                   </div>
@@ -456,11 +453,6 @@ const { recipe } = useRecipe(Number(route.params.id));
   color: var(--brown-mid);
   flex-shrink: 0;
   margin-top: 1px;
-}
-
-.ing-qty {
-  font-weight: 600;
-  color: var(--red);
 }
 
 /* ── Dish photo ── */

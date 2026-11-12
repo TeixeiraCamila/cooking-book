@@ -1,11 +1,6 @@
-export interface Ingredient {
-  quantity: string
-  name: string
-}
-
 export interface IngredientGroup {
   name: string
-  ingredients: Ingredient[]
+  ingredients: string[]
 }
 
 export interface PreparationGroup {
