@@ -53,12 +53,14 @@ const { recipe } = useRecipe(Number(route.params.id));
                     </h3>
                     <ul class="ingredients-list">
                       <li
-                        v-for="ing in group.ingredients"
-                        :key="ing"
+                        v-for="(ing, index) in group.ingredients"
+                        :key="`${ing.quantity}-${ing.name}-${index}`"
                         class="ingredient-item"
                       >
                         <span class="ing-bullet">•</span>
-                        <span class="ing-text">{{ ing }}</span>
+                        <span class="ing-text"
+                          >{{ ing.quantity }} de {{ ing.name }}</span
+                        >
                       </li>
                     </ul>
                   </div>
@@ -135,8 +137,6 @@ const { recipe } = useRecipe(Number(route.params.id));
   </div>
 </template>
 <style scoped>
-
-
 /* ── Binder spine ── */
 .binder-spine {
   width: 52px;

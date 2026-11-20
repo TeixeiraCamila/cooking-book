@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Cupcake de Cenoura com Ganache de Chocolate",
-      "description": "Cupcakes fofos e úmidos com ganache de chocolate, perfeitos para festinhas e celebrações.",
+      "description": "Cupcakes fofos e úmidos de cenoura, cobertos com ganache cremosa de chocolate, perfeitos para festinhas e celebrações.",
       "category": "Bolos e Cupcakes",
       "servings": 16,
       "time": "58 minutos",
@@ -12,21 +12,51 @@
         {
           "name": "Massa",
           "ingredients": [
-            "1 xícara de óleo vegetal (canola ou girassol)",
-            "4 unidades de ovos",
-            "2 xícaras de açúcar",
-            "1 xícara de cenoura picada",
-            "2 xícaras de farinha de trigo",
-            "1 colher de sopa de fermento em pó",
-            "1 pitada de sal"
+            {
+              "quantity": "1 xícara",
+              "name": "óleo vegetal (canola ou girassol)"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "cenoura picada"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal"
+            }
           ]
         },
         {
           "name": "Ganache de Chocolate",
           "ingredients": [
-            "250g de chocolate meio amargo",
-            "250g de chocolate ao leite",
-            "1 caixinha de creme de leite"
+            {
+              "quantity": "250g",
+              "name": "chocolate meio amargo"
+            },
+            {
+              "quantity": "250g",
+              "name": "chocolate ao leite"
+            },
+            {
+              "quantity": "1 caixinha",
+              "name": "creme de leite"
+            }
           ]
         }
       ],
@@ -34,71 +64,21 @@
         {
           "name": "Massa",
           "steps": [
-            "Ligue o forno em 180°C. Em uma tigela grande, peneire a farinha, o fermento e o sal. Lave e descasque a cenoura, depois pique em pequenos pedaços.",
-            "No liquidificador, pulse o óleo, os ovos, a cenoura e o açúcar até ficar uniforme. Use pequenos pulsos — não bata demais os ovos. Retire quando não houver mais grandes pedaços de cenoura.",
-            "Despeje a mistura na tigela com os ingredientes secos e incorpore com uma espátula dobrando a massa suavemente sobre ela mesma. Não mexa em excesso para o bolo não solar.",
-            "Divida entre as forminhas de cupcake nº 0 e asse por 18 minutos, ou até que um palito inserido no centro saia limpo. Espere esfriar completamente antes de decorar."
+            "Preaqueça o forno a 180°C. Em uma tigela grande, peneire a farinha de trigo, o fermento e o sal. Descasque a cenoura e corte em pequenos pedaços.",
+            "No liquidificador, coloque o óleo, os ovos, a cenoura e o açúcar. Bata utilizando pequenos pulsos até obter uma mistura uniforme, sem grandes pedaços de cenoura.",
+            "Despeje a mistura do liquidificador sobre os ingredientes secos. Incorpore delicadamente com uma espátula, mexendo apenas até obter uma massa homogênea. Evite misturar em excesso para manter os cupcakes fofos.",
+            "Distribua a massa em 16 forminhas de cupcake, preenchendo aproximadamente 2/3 de cada uma.",
+            "Asse por aproximadamente 18 minutos, ou até que um palito inserido no centro saia limpo. Retire do forno e deixe esfriar completamente antes de decorar."
           ]
         },
         {
-          "name": "Ganache",
+          "name": "Ganache de Chocolate",
           "steps": [
-            "Derreta o chocolate no micro-ondas em 3 ciclos de 1,5 minuto na potência 60%. Retire a cada ciclo e mexa, observando quando estará totalmente derretido.",
-            "Retire do micro-ondas e deixe chegar à temperatura ambiente — ele deve refrescar mas continuar líquido. Adicione o creme de leite e mexa até obter uma mistura homogênea e brilhante.",
-            "Leve à geladeira por 30 a 40 minutos ou até endurecer. Coloque no saco de confeitar com bico pitanga e decore os cupcakes, começando pela borda externa e fazendo a volta até o centro."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Bolo de Chocolate Fudge",
-      "description": "Um bolo de chocolate intenso e úmido, coberto com cremosa cobertura de fudge — irresistível.",
-      "category": "Bolos e Cupcakes",
-      "servings": 12,
-      "time": "1 hora",
-      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "ingredientGroups": [
-        {
-          "name": "Massa",
-          "ingredients": [
-            "2 xícaras de farinha de trigo",
-            "2 xícaras de açúcar",
-            "3/4 xícara de cacau em pó",
-            "2 colheres de chá de bicarbonato de sódio",
-            "1 colher de chá de sal",
-            "2 unidades de ovos",
-            "1 xícara de buttermilk",
-            "1 xícara de café forte quente",
-            "1/2 xícara de óleo vegetal"
-          ]
-        },
-        {
-          "name": "Cobertura Fudge",
-          "ingredients": [
-            "200g de manteiga sem sal",
-            "1/2 xícara de cacau em pó",
-            "3 xícaras de açúcar de confeiteiro",
-            "1/3 xícara de leite integral"
-          ]
-        }
-      ],
-      "preparationGroups": [
-        {
-          "name": "Massa",
-          "steps": [
-            "Preaqueça o forno a 175°C. Unte e enfarinhe duas formas redondas de 23 cm.",
-            "Em uma tigela grande, misture todos os ingredientes secos (farinha, açúcar, cacau, bicarbonato e sal).",
-            "Adicione os ovos, o buttermilk e o óleo. Bata por 2 minutos em velocidade média.",
-            "Incorpore o café quente com cuidado — a massa ficará fina, e isso é normal. Divida entre as formas e asse por 30 a 35 minutos."
-          ]
-        },
-        {
-          "name": "Cobertura",
-          "steps": [
-            "Derreta a manteiga em fogo médio. Adicione o cacau em pó e mexa bem até incorporar.",
-            "Retire do fogo e adicione alternadamente o açúcar de confeiteiro e o leite, batendo até obter consistência cremosa e espalhável.",
-            "Recheie e cubra o bolo com a cobertura ainda levemente morno para melhor aderência e acabamento liso."
+            "Pique os chocolates meio amargo e ao leite em pedaços pequenos e coloque em um recipiente próprio para micro-ondas.",
+            "Derreta o chocolate no micro-ondas em ciclos de 1 minuto e 30 segundos, utilizando potência de 60%. Retire a cada ciclo e mexa bem para distribuir o calor. Repita até que esteja completamente derretido.",
+            "Deixe o chocolate esfriar um pouco, até atingir a temperatura ambiente, mas sem endurecer. Adicione o creme de leite e misture até obter uma ganache homogênea, cremosa e brilhante.",
+            "Leve à geladeira por aproximadamente 30 a 40 minutos, ou até atingir uma consistência firme o suficiente para confeitar.",
+            "Transfira a ganache para um saco de confeitar com bico pitanga. Decore os cupcakes começando pela borda externa e fazendo movimentos circulares até o centro."
           ]
         }
       ]
@@ -107,7 +87,7 @@
       "id": 3,
       "name": "Torta de Limão Siciliano",
       "description": "Torta elegante com creme azedinho de limão siciliano e merengue dourado por cima.",
-      "category": "Tortas e Doces",
+      "category": "Doces e Sobremesas",
       "servings": 10,
       "time": "1 hora e 15 minutos",
       "image": "https://images.unsplash.com/photo-1502307837336-d59cca9408a9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -115,29 +95,68 @@
         {
           "name": "Massa Podre",
           "ingredients": [
-            "2 xícaras de farinha de trigo",
-            "100g de manteiga gelada em cubos",
-            "1/4 xícara de açúcar",
-            "1 pitada de sal",
-            "4 colheres de sopa de água gelada"
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "100g",
+              "name": "manteiga gelada em cubos"
+            },
+            {
+              "quantity": "1/4 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal"
+            },
+            {
+              "quantity": "4 colheres de sopa",
+              "name": "água gelada"
+            }
           ]
         },
         {
           "name": "Creme de Limão",
           "ingredients": [
-            "1 xícara de suco de limão siciliano (3 a 4 limões)",
-            "1 colher de sopa de raspas de limão siciliano",
-            "1 xícara de açúcar",
-            "4 unidades de ovos",
-            "100g de manteiga sem sal"
+            {
+              "quantity": "1 xícara",
+              "name": "suco de limão siciliano (3 a 4 limões)"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "raspas de limão siciliano"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "100g",
+              "name": "manteiga sem sal"
+            }
           ]
         },
         {
           "name": "Merengue",
           "ingredients": [
-            "4 unidades de claras de ovos",
-            "1 xícara de açúcar",
-            "1/4 colher de chá de cremor tártaro"
+            {
+              "quantity": "4 unidades",
+              "name": "claras de ovos"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "cremor tártaro"
+            }
           ]
         }
       ],
@@ -178,19 +197,43 @@
         {
           "name": "Torrada",
           "ingredients": [
-            "1 fatia de pão de fermentação natural (ou pão de sua preferência)",
-            "1 colher de chá de azeite (para torrar o pão)"
+            {
+              "quantity": "1 fatia",
+              "name": "pão de fermentação natural (ou pão de sua preferência)"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "azeite (para torrar o pão)"
+            }
           ]
         },
         {
           "name": "Ovos",
           "ingredients": [
-            "2 unidades de ovos",
-            "1 colher de sopa de manteiga",
-            "1/2 colher de chá de páprica picante",
-            "2 colheres de sopa de mussarela ralada",
-            "2 colheres de sopa de manjericão fresco rasgado",
-            "1 pitada de sal e pimenta (opcional)"
+            {
+              "quantity": "2 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "manteiga"
+            },
+            {
+              "quantity": "1/2 colher de chá",
+              "name": "páprica picante"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "mussarela ralada"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "manjericão fresco rasgado"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal e pimenta (opcional)"
+            }
           ]
         }
       ],
@@ -218,23 +261,59 @@
         {
           "name": "Brownie",
           "ingredients": [
-            "1 xícara de açúcar refinado",
-            "2 unidades de raspas de limão",
-            "1/2 xícara de manteiga sem sal",
-            "2 unidades de ovos grandes",
-            "1 colher de chá de extrato de baunilha",
-            "1 colher de chá de extrato de limão",
-            "1 xícara de farinha de trigo",
-            "1/2 colher de chá de sal",
-            "1/4 colher de chá de fermento químico em pó"
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "raspas de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "manteiga sem sal"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos grandes"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de limão"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1/2 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "fermento químico em pó"
+            }
           ]
         },
         {
           "name": "Cobertura de Limão",
           "ingredients": [
-            "1 colher de sopa de suco de limão",
-            "1/2 xícara de açúcar de confeiteiro",
-            "1/4 colher de chá de extrato de baunilha"
+            {
+              "quantity": "1 colher de sopa",
+              "name": "suco de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar de confeiteiro"
+            },
+            {
+              "quantity": "1/4 colher de chá",
+              "name": "extrato de baunilha"
+            }
           ]
         }
       ],
@@ -266,32 +345,80 @@
         {
           "name": "Cupcakes",
           "ingredients": [
-            "1 tablete ou 1/2 xícara de manteiga sem sal em temperatura ambiente",
-            "3/4 xícara de açúcar",
-            "2 unidades de ovos grandes",
-            "2 colheres de chá de extrato de baunilha",
-            "1 1/2 xícara de farinha de trigo",
-            "1 1/2 colher de chá de fermento químico em pó",
-            "1 colher de chá de sal",
-            "1/2 xícara de buttermilk caseiro (1/2 xícara de leite + 1/2 colher de sopa de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            {
+              "quantity": "1 tablete ou 1/2 xícara",
+              "name": "manteiga sem sal em temperatura ambiente"
+            },
+            {
+              "quantity": "3/4 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos grandes"
+            },
+            {
+              "quantity": "2 colheres de chá",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "1 1/2 xícara",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 1/2 colher de chá",
+              "name": "fermento químico em pó"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "buttermilk caseiro (1/2 xícara de leite + 1/2 colher de sopa de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            }
           ]
         },
         {
           "name": "Lemon Curd",
           "ingredients": [
-            "3 unidades de gemas grandes",
-            "1 1/2 colher de sopa de raspas de limão",
-            "1/2 xícara de suco de limão",
-            "1/2 xícara de açúcar",
-            "6 colheres de sopa de manteiga"
+            {
+              "quantity": "3 unidades",
+              "name": "gemas grandes"
+            },
+            {
+              "quantity": "1 1/2 colher de sopa",
+              "name": "raspas de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "suco de limão"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "6 colheres de sopa",
+              "name": "manteiga"
+            }
           ]
         },
         {
           "name": "Merengue",
           "ingredients": [
-            "3 unidades de claras grandes",
-            "1/2 xícara de açúcar",
-            "1 colher de chá de extrato de baunilha"
+            {
+              "quantity": "3 unidades",
+              "name": "claras grandes"
+            },
+            {
+              "quantity": "1/2 xícara",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "extrato de baunilha"
+            }
           ]
         }
       ],
@@ -340,15 +467,42 @@
         {
           "name": "Massa",
           "ingredients": [
-            "1/2 xícara (113g) de manteiga sem sal em temperatura ambiente",
-            "1/2 xícara (105g) de óleo vegetal",
-            "1 1/2 xícara (312g) de açúcar refinado",
-            "4 unidades de ovos grandes em temperatura ambiente",
-            "2 colheres de sopa de extrato de baunilha",
-            "3 xícaras (360g) de farinha para bolo",
-            "1 colher de chá de sal",
-            "2 1/2 colheres de chá de fermento químico em pó",
-            "1 1/3 xícara (320g) de buttermilk caseiro (1 1/3 xícara de leite + 1 colher de sopa e 1 colher de chá de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            {
+              "quantity": "1/2 xícara (113g)",
+              "name": "manteiga sem sal em temperatura ambiente"
+            },
+            {
+              "quantity": "1/2 xícara (105g)",
+              "name": "óleo vegetal"
+            },
+            {
+              "quantity": "1 1/2 xícara (312g)",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "4 unidades",
+              "name": "ovos grandes em temperatura ambiente"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "3 xícaras (360g)",
+              "name": "farinha para bolo"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "sal"
+            },
+            {
+              "quantity": "2 1/2 colheres de chá",
+              "name": "fermento químico em pó"
+            },
+            {
+              "quantity": "1 1/3 xícara (320g)",
+              "name": "buttermilk caseiro (1 1/3 xícara de leite + 1 colher de sopa e 1 colher de chá de suco de limão ou vinagre branco, descansar por 10 minutos)"
+            }
           ]
         }
       ],
@@ -389,24 +543,63 @@
         {
           "name": "Frango",
           "ingredients": [
-            "1 kg de pedaços de frango (asas, drumettes, coxas ou peito)",
-            "a gosto de pimenta dedo-de-moça ou pimenta-do-reino",
-            "a gosto de sal",
-            "a gosto de páprica, de preferência defumada",
-            "2 colheres de sopa de vinagre ou suco de 1 limão",
-            "a gosto de óleo, azeite, banha ou outra gordura para cozinhar"
+            {
+              "quantity": "1 kg",
+              "name": "pedaços de frango (asas, drumettes, coxas ou peito)"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "pimenta dedo-de-moça ou pimenta-do-reino"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "sal"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "páprica, de preferência defumada"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "vinagre ou suco de 1 limão"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "óleo, azeite, banha ou outra gordura para cozinhar"
+            }
           ]
         },
         {
           "name": "Molho",
           "ingredients": [
-            "1 unidade de cebola grande, bem picada",
-            "6 dentes de alho, picado ou triturado",
-            "2 unidades de tomates maduros, picados com pele e sementes",
-            "a gosto de extrato de tomate",
-            "1 colher de chá de colorau, opcional para substituir o extrato de tomate",
-            "aproximadamente 350 ml de água",
-            "a gosto de salsinha e cebolinha frescas, picadas"
+            {
+              "quantity": "1 unidade",
+              "name": "cebola grande, bem picada"
+            },
+            {
+              "quantity": "6 dentes",
+              "name": "alho, picado ou triturado"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "tomates maduros, picados com pele e sementes"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "extrato de tomate"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "colorau, opcional para substituir o extrato de tomate"
+            },
+            {
+              "quantity": "aproximadamente 350 ml",
+              "name": "água"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "salsinha e cebolinha frescas, picadas"
+            }
           ]
         }
       ],
@@ -454,38 +647,89 @@
         {
           "name": "Massa",
           "ingredients": [
-            "3 unidades de ovos",
-            "1 xícara de chá de açúcar",
-            "3/4 xícara de chá de óleo vegetal",
-            "110 ml de leite integral",
-            "1/4 xícara de chá de leite Ninho",
-            "1 xícara de chá de farinha de trigo",
-            "1 colher de sopa de fermento químico em pó"
+            {
+              "quantity": "3 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 xícara de chá",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "3/4 xícara de chá",
+              "name": "óleo vegetal"
+            },
+            {
+              "quantity": "110 ml",
+              "name": "leite integral"
+            },
+            {
+              "quantity": "1/4 xícara de chá",
+              "name": "leite Ninho"
+            },
+            {
+              "quantity": "1 xícara de chá",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "fermento químico em pó"
+            }
           ]
         },
         {
           "name": "Recheio",
           "ingredients": [
-            "1/2 xícara de chá de água",
-            "6g de gelatina incolor sem sabor",
-            "400g de creme de leite",
-            "285g de leite condensado",
-            "1 1/2 xícara de chá de leite em pó",
-            "150 ml de chantilly líquido gelado"
+            {
+              "quantity": "1/2 xícara de chá",
+              "name": "água"
+            },
+            {
+              "quantity": "6g",
+              "name": "gelatina incolor sem sabor"
+            },
+            {
+              "quantity": "400g",
+              "name": "creme de leite"
+            },
+            {
+              "quantity": "285g",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "1 1/2 xícara de chá",
+              "name": "leite em pó"
+            },
+            {
+              "quantity": "150 ml",
+              "name": "chantilly líquido gelado"
+            }
           ]
         },
         {
           "name": "Calda",
           "ingredients": [
-            "250 ml de leite integral",
-            "110g de leite condensado",
-            "2 colheres de sopa de leite em pó"
+            {
+              "quantity": "250 ml",
+              "name": "leite integral"
+            },
+            {
+              "quantity": "110g",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "leite em pó"
+            }
           ]
         },
         {
           "name": "Finalização",
           "ingredients": [
-            "A gosto de leite em pó para polvilhar"
+            {
+              "quantity": "A gosto",
+              "name": "leite em pó para polvilhar"
+            }
           ]
         }
       ],
@@ -562,11 +806,26 @@
         {
           "name": "Ingredientes",
           "ingredients": [
-            "2 unidades de torradas integrais",
-            "1 fio de azeite",
-            "2 unidades de ovos",
-            "1 unidade pequena de abacate",
-            "A gosto de sal e pimenta-do-reino"
+            {
+              "quantity": "2 unidades",
+              "name": "torradas integrais"
+            },
+            {
+              "quantity": "1 fio",
+              "name": "azeite"
+            },
+            {
+              "quantity": "2 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 unidade pequena",
+              "name": "abacate"
+            },
+            {
+              "quantity": "A gosto",
+              "name": "sal e pimenta-do-reino"
+            }
           ]
         }
       ],
@@ -596,22 +855,55 @@
         {
           "name": "Cobertura",
           "ingredients": [
-            "1 colher de sopa de manteiga gelada",
-            "2 colheres de sopa de açúcar",
-            "2 colheres de sopa de farinha de trigo"
+            {
+              "quantity": "1 colher de sopa",
+              "name": "manteiga gelada"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "farinha de trigo"
+            }
           ]
         },
         {
           "name": "Massa",
           "ingredients": [
-            "3/4 de xícara de chá (aproximadamente 125 g) de mirtilos frescos",
-            "1 xícara de chá de farinha de trigo",
-            "3/4 de xícara de chá de açúcar",
-            "1 colher de chá de fermento em pó",
-            "1/3 de xícara de chá de iogurte natural sem açúcar e sem adoçante",
-            "50 g de manteiga",
-            "1 unidade de ovo",
-            "Raspas de 1 unidade limão-siciliano"
+            {
+              "quantity": "3/4",
+              "name": "xícara de chá (aproximadamente 125 g) de mirtilos frescos"
+            },
+            {
+              "quantity": "1 xícara de chá",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "3/4",
+              "name": "xícara de chá de açúcar"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "1/3",
+              "name": "xícara de chá de iogurte natural sem açúcar e sem adoçante"
+            },
+            {
+              "quantity": "50 g",
+              "name": "manteiga"
+            },
+            {
+              "quantity": "1 unidade",
+              "name": "ovo"
+            },
+            {
+              "quantity": "Raspas de 1",
+              "name": "limão-siciliano"
+            }
           ]
         }
       ],
@@ -646,6 +938,575 @@
         "Os muffins podem ser congelados por até 3 meses.",
         "Para descongelar, aqueça no micro-ondas por aproximadamente 15 segundos.",
         "Temperatura do forno: 200 °C."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bolo Gelado com Recheio de Leite Ninho e Supermolhadinho",
+      "description": "Bolo gelado de massa fofinha, umedecido com calda de leite e recheado com creme de leite Ninho.",
+      "category": "Bolos e Cupcakes",
+      "servings": 10,
+      "time": "Aproximadamente 4 horas",
+      "image": "https://www.daninoce.com.br/wp-content/uploads/2017/09/BOLO-GELADO-COM-RECHEIO-DE-LEITE-NINHO-E-SUPERMOLHADINHO-DANI-NOCE-4.jpg",
+      "ingredientGroups": [
+        {
+          "name": "Bolo",
+          "ingredients": [
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "leite integral"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "1 colher de sopa",
+              "name": "fermento em pó"
+            }
+          ]
+        },
+        {
+          "name": "Calda",
+          "ingredients": [
+            {
+              "quantity": "2 colheres de sopa (30 g)",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "1 xícara",
+              "name": "leite integral"
+            }
+          ]
+        },
+        {
+          "name": "Recheio",
+          "ingredients": [
+            {
+              "quantity": "365 g",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "100 g",
+              "name": "manteiga sem sal"
+            },
+            {
+              "quantity": "200 g",
+              "name": "creme de leite"
+            },
+            {
+              "quantity": "1 e 1/2 xícara",
+              "name": "leite em pó"
+            }
+          ]
+        },
+        {
+          "name": "Decoração",
+          "ingredients": [
+            {
+              "quantity": "1 xícara",
+              "name": "leite em pó"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Bolo",
+          "steps": [
+            "Preaqueça o forno a 180 °C.",
+            "Em uma tigela, bata os ovos com o açúcar até obter uma mistura clara e aerada.",
+            "Adicione o leite, a farinha de trigo peneirada e o fermento.",
+            "Misture delicadamente com um fouet, fazendo movimentos de baixo para cima, até obter uma massa lisa.",
+            "Forre uma forma de 23 x 33 cm com papel-manteiga ou unte e enfarinhe.",
+            "Despeje a massa na forma e asse por aproximadamente 30 minutos.",
+            "Retire do forno e deixe esfriar completamente."
+          ]
+        },
+        {
+          "name": "Calda",
+          "steps": [
+            "Coloque o leite condensado em uma tigela.",
+            "Adicione o leite integral e misture bem. Reserve."
+          ]
+        },
+        {
+          "name": "Recheio",
+          "steps": [
+            "Coloque o leite condensado, a manteiga em temperatura ambiente, o creme de leite e o leite em pó em uma tigela.",
+            "Bata tudo com uma batedeira até formar um creme homogêneo.",
+            "Leve o creme ao congelador enquanto prepara a montagem."
+          ]
+        },
+        {
+          "name": "Montagem",
+          "steps": [
+            "Com o bolo completamente frio, desenforme e corte horizontalmente ao meio.",
+            "Coloque a metade inferior de volta na forma e umedeça com metade da calda.",
+            "Retire o recheio do congelador e espalhe 3/4 do creme sobre a primeira camada de bolo.",
+            "Coloque a segunda metade da massa por cima.",
+            "Fure toda a superfície do bolo com um garfo e espalhe o restante da calda.",
+            "Distribua o restante do creme sobre o bolo.",
+            "Finalize polvilhando o leite em pó.",
+            "Leve à geladeira por aproximadamente 3 horas e sirva bem gelado."
+          ]
+        }
+      ],
+      "notes": [
+        "Utilize os ingredientes em temperatura ambiente.",
+        "Forma indicada: 23 x 33 cm.",
+        "Tempo de espera: aproximadamente 3 horas na geladeira."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bolo Mousse de Leite Ninho",
+      "description": "Bolo de três camadas com mousse cremosa de leite Ninho e cobertura amanteigada decorada com rosas.",
+      "category": "Bolos e Cupcakes",
+      "servings": 6,
+      "time": "Aproximadamente 6 horas",
+      "image": "",
+      "ingredientGroups": [
+        {
+          "name": "Bolo",
+          "ingredients": [
+            {
+              "quantity": "3 xícaras",
+              "name": "farinha de trigo"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "1 pitada",
+              "name": "sal"
+            },
+            {
+              "quantity": "8 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "2 xícaras",
+              "name": "açúcar cristal"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "extrato de baunilha"
+            },
+            {
+              "quantity": "300 ml",
+              "name": "leite integral"
+            },
+            {
+              "quantity": "255 ml",
+              "name": "óleo"
+            }
+          ]
+        },
+        {
+          "name": "Mousse de Leite Ninho",
+          "ingredients": [
+            {
+              "quantity": "2 xícaras",
+              "name": "creme de leite fresco ou nata"
+            },
+            {
+              "quantity": "1 lata",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "1 e 1/2 xícara",
+              "name": "leite Ninho"
+            },
+            {
+              "quantity": "2 folhas",
+              "name": "gelatina incolor sem sabor"
+            }
+          ]
+        },
+        {
+          "name": "Cobertura",
+          "ingredients": [
+            {
+              "quantity": "400 g",
+              "name": "creme de leite fresco ou nata"
+            },
+            {
+              "quantity": "1 lata",
+              "name": "leite condensado"
+            },
+            {
+              "quantity": "450 g",
+              "name": "leite Ninho ou leite em pó"
+            },
+            {
+              "quantity": "500 g",
+              "name": "manteiga sem sal"
+            }
+          ]
+        },
+        {
+          "name": "Decoração",
+          "ingredients": [
+            {
+              "quantity": "A gosto",
+              "name": "borboletas de papel de arroz ou confeitos de sua preferência"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Bolo",
+          "steps": [
+            "Peneire a farinha de trigo, o fermento e o sal. Reserve.",
+            "Em uma tigela grande, bata os ovos com o açúcar cristal e o extrato de baunilha até obter uma mistura fofa e esbranquiçada.",
+            "Adicione o leite integral e o óleo à mistura.",
+            "Acrescente os ingredientes secos e misture delicadamente, do centro para fora, com movimentos de baixo para cima.",
+            "Se ainda houver grumos, bata rapidamente com a batedeira em velocidade baixa, apenas até incorporar.",
+            "Divida a massa entre 3 formas iguais de 21 cm, untadas e enfarinhadas.",
+            "Asse em forno preaquecido a 180 °C por aproximadamente 30 a 35 minutos.",
+            "Deixe os bolos esfriarem."
+          ]
+        },
+        {
+          "name": "Mousse de Leite Ninho",
+          "steps": [
+            "Bata o creme de leite fresco ou a nata com o leite condensado e o leite Ninho até atingir o ponto de chantilly.",
+            "Hidrate as folhas de gelatina em água.",
+            "Retire o excesso de água das folhas hidratadas.",
+            "Coloque a gelatina em uma panelinha com um pouco da mousse e aqueça em fogo baixo ou banho-maria até dissolver.",
+            "Misture a gelatina dissolvida ao restante da mousse e bata novamente para incorporar."
+          ]
+        },
+        {
+          "name": "Montagem",
+          "steps": [
+            "Posicione uma folha de acetato ao redor de uma forma de 21 cm de diâmetro.",
+            "Corte o topo do primeiro bolo e coloque-o no fundo da forma, com a parte cortada voltada para cima.",
+            "Espalhe metade da mousse sobre o primeiro bolo.",
+            "Corte o topo do segundo bolo e coloque-o sobre a mousse, com a parte cortada voltada para baixo. Pressione delicadamente para fixar.",
+            "Adicione o restante da mousse.",
+            "Corte o topo do último bolo e coloque-o por cima, com a parte cortada voltada para cima, para nivelar a superfície.",
+            "Pressione delicadamente e leve à geladeira por 4 horas."
+          ]
+        },
+        {
+          "name": "Cobertura",
+          "steps": [
+            "Bata o creme de leite fresco ou a nata com o leite condensado e o leite Ninho até obter uma textura grossa.",
+            "Em outra tigela, bata a manteiga sem sal até ficar leve e fofa.",
+            "Adicione uma parte da manteiga batida à mistura de leite Ninho e bata.",
+            "Acrescente o restante da manteiga e bata até obter um creme liso.",
+            "Retire o bolo da geladeira e remova o acetato.",
+            "Coloque o bolo no prato de servir e espalhe uma camada fina de cobertura por toda a superfície e laterais.",
+            "Transfira parte da cobertura para um saco de confeitar com bico pitanga e faça rosas ao redor do bolo.",
+            "Faça as rosas partindo do centro para fora e alterne as direções para equilibrar a decoração.",
+            "Se desejar, faça rosas menores sobre as maiores.",
+            "Finalize com borboletas de papel de arroz ou outro confeito."
+          ]
+        }
+      ],
+      "notes": [
+        "Utilize três formas de 21 cm de diâmetro.",
+        "A montagem precisa de 4 horas de refrigeração.",
+        "A cobertura é feita com manteiga sem sal, creme de leite fresco ou nata, leite condensado e leite em pó.",
+        "A gelatina da mousse deve ser hidratada e dissolvida antes de ser incorporada ao creme."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Buttermilk Caseiro",
+      "description": "Preparo simples de leite talhado com limão ou vinagre, utilizado em receitas de bolos e cupcakes.",
+      "category": "Preparos Básicos",
+      "servings": "260 ml",
+      "time": "20 minutos",
+      "image": "https://www.daninoce.com.br/wp-content/uploads/2017/08/receita-como-fazer-buttermilk-ickfd-4.jpg",
+      "ingredientGroups": [
+        {
+          "name": "Ingredientes",
+          "ingredients": [
+            {
+              "quantity": "240 ml",
+              "name": "leite desnatado"
+            },
+            {
+              "quantity": "2 colheres de sopa",
+              "name": "suco de limão ou vinagre branco"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Preparo",
+          "steps": [
+            "Em uma tigela média, misture o suco de limão ou o vinagre ao leite desnatado.",
+            "Deixe descansar por 10 minutos em temperatura ambiente, até que o leite talhe."
+          ]
+        }
+      ],
+      "notes": [
+        "Utilize assim que ficar pronto.",
+        "A receita informa que a quantidade de buttermilk pode ser substituída por 2/3 de iogurte desnatado ou 1/3 de leite."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Bem-casado com Doce de Leite de Lata",
+      "description": "Docinhos tradicionais feitos com discos de massa fofinha, recheados com doce de leite e finalizados com calda de açúcar.",
+      "category": "Doces e Sobremesas",
+      "servings": "15 unidades",
+      "time": "Aproximadamente 1 hora e 30 minutos",
+      "image": "",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            {
+              "quantity": "4 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "4 colheres de sopa",
+              "name": "açúcar"
+            },
+            {
+              "quantity": "1 colher de chá",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "10 colheres de sopa",
+              "name": "fécula de batata"
+            },
+            {
+              "quantity": "Para untar e polvilhar",
+              "name": "manteiga e farinha de trigo"
+            }
+          ]
+        },
+        {
+          "name": "Recheio",
+          "ingredients": [
+            {
+              "quantity": "1 lata",
+              "name": "leite condensado"
+            }
+          ]
+        },
+        {
+          "name": "Calda",
+          "ingredients": [
+            {
+              "quantity": "2 xícaras de chá",
+              "name": "açúcar de confeiteiro"
+            },
+            {
+              "quantity": "1/2 xícara de chá",
+              "name": "água morna"
+            }
+          ]
+        },
+        {
+          "name": "Embalagem",
+          "ingredients": [
+            {
+              "quantity": "A gosto",
+              "name": "papel celofane, papel crepom e fita para os laços"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa",
+          "steps": [
+            "Preaqueça o forno a 200 °C.",
+            "Na batedeira, bata os ovos com o açúcar por aproximadamente 5 minutos, até obter uma massa leve e fofa.",
+            "Adicione o fermento em pó e desligue a batedeira.",
+            "Acrescente a fécula de batata aos poucos, misturando delicadamente com um batedor de arame até ficar homogêneo.",
+            "Coloque a massa em um saco de confeitar.",
+            "Pingue pequenas porções em uma assadeira untada com manteiga e polvilhada com farinha de trigo, deixando espaço entre elas.",
+            "Leve ao forno o mais rápido possível para preservar a leveza da massa.",
+            "Asse por aproximadamente 8 minutos, ou até os discos ficarem firmes e levemente dourados.",
+            "Retire os discos da assadeira ainda quentes e reserve.",
+            "Se desejar, utilize um cortador redondo para deixar todos os discos do mesmo tamanho."
+          ]
+        },
+        {
+          "name": "Recheio",
+          "steps": [
+            "Retire o rótulo e o excesso de cola da lata de leite condensado.",
+            "Coloque a lata em uma panela de pressão e cubra completamente com água.",
+            "Tampe a panela e cozinhe em fogo médio por 20 minutos, contados a partir do início da fervura.",
+            "Desligue o fogo e espere toda a pressão sair naturalmente antes de abrir a panela.",
+            "Retire a lata com cuidado e deixe esfriar completamente antes de abrir."
+          ]
+        },
+        {
+          "name": "Calda",
+          "steps": [
+            "Coloque o açúcar de confeiteiro em uma tigela.",
+            "Adicione a água morna e misture até obter uma calda grossa.",
+            "Mantenha a calda morna, se necessário em banho-maria, para facilitar a finalização."
+          ]
+        },
+        {
+          "name": "Montagem",
+          "steps": [
+            "Espalhe aproximadamente 1 colher de chá de doce de leite sobre um disco de massa.",
+            "Cubra com outro disco, formando um pequeno sanduíche.",
+            "Repita o processo com os demais discos.",
+            "Mergulhe cada bem-casado na calda de açúcar.",
+            "Coloque os doces sobre uma grelha e deixe secar por aproximadamente 30 minutos."
+          ]
+        },
+        {
+          "name": "Embalagem",
+          "steps": [
+            "Corte o papel celofane e o papel crepom em quadrados de aproximadamente 20 cm.",
+            "Embrulhe cada doce primeiro com o celofane e depois com o papel crepom.",
+            "Finalize com um laço de fita."
+          ]
+        }
+      ],
+      "notes": [
+        "Rendimento indicado: aproximadamente 15 unidades.",
+        "A massa pode ser congelada por até 3 meses.",
+        "A calda deve ser preparada e aplicada preferencialmente no dia da festa.",
+        "Depois de finalizados com a calda, os bem-casados devem ser consumidos em até 3 dias.",
+        "A lata de leite condensado precisa esfriar completamente antes de ser aberta."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bolo de Mel",
+      "description": "Bolo russo de sete camadas de massa fina, recheado com creme de mel e finalizado com farofa de biscoito.",
+      "category": "Bolos e Cupcakes",
+      "servings": "10 a 12",
+      "time": "Aproximadamente 3 horas e 5 minutos",
+      "image": "https://www.daninoce.com.br/wp-content/uploads/2018/06/bolo-de-mel-russo-receita-dani-noce-04.jpg",
+      "ingredientGroups": [
+        {
+          "name": "Massa",
+          "ingredients": [
+            {
+              "quantity": "115 g",
+              "name": "manteiga"
+            },
+            {
+              "quantity": "100 g",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "50 g",
+              "name": "mel"
+            },
+            {
+              "quantity": "3 unidades",
+              "name": "ovos"
+            },
+            {
+              "quantity": "12 g",
+              "name": "fermento em pó"
+            },
+            {
+              "quantity": "500 g",
+              "name": "farinha de trigo"
+            }
+          ]
+        },
+        {
+          "name": "Recheio",
+          "ingredients": [
+            {
+              "quantity": "600 g",
+              "name": "cream cheese ou sour cream"
+            },
+            {
+              "quantity": "220 g",
+              "name": "mascarpone ou nata"
+            },
+            {
+              "quantity": "100 g",
+              "name": "açúcar refinado"
+            },
+            {
+              "quantity": "4 colheres de sopa",
+              "name": "mel"
+            }
+          ]
+        },
+        {
+          "name": "Montagem e Decoração",
+          "ingredients": [
+            {
+              "quantity": "A gosto",
+              "name": "mel para decoração"
+            }
+          ]
+        }
+      ],
+      "preparationGroups": [
+        {
+          "name": "Massa",
+          "steps": [
+            "Em banho-maria, derreta a manteiga com o açúcar e o mel, mexendo até obter uma mistura homogênea.",
+            "Acrescente os ovos um por um, misturando a cada adição.",
+            "Adicione o fermento em pó e misture bem.",
+            "Divida a farinha de trigo em três partes.",
+            "Peneire a primeira parte da farinha e misture com um fouet.",
+            "Acrescente a segunda parte, também peneirada, e misture.",
+            "Adicione a última parte da farinha e misture com as mãos.",
+            "Quando a massa formar uma bola que desgruda facilmente das mãos, divida em 8 partes iguais.",
+            "Abra cada parte bem fininha, com aproximadamente 4 mm de espessura, preferencialmente sobre papel-manteiga.",
+            "Corte cada massa com uma forma ou cortador de 15 cm de diâmetro.",
+            "Leve os discos ao congelador por 20 minutos.",
+            "Guarde também as sobras de massa para assar e utilizar na decoração.",
+            "Preaqueça o forno a 200 °C.",
+            "Asse os discos individualmente por aproximadamente 10 minutos cada.",
+            "Deixe esfriar completamente sobre grades."
+          ]
+        },
+        {
+          "name": "Recheio",
+          "steps": [
+            "Coloque o cream cheese ou sour cream, o mascarpone ou nata e o açúcar em uma tigela.",
+            "Bata com a batedeira até os ingredientes se misturarem.",
+            "Adicione o mel e bata novamente até incorporar."
+          ]
+        },
+        {
+          "name": "Montagem",
+          "steps": [
+            "Coloque o primeiro disco de massa como base e cubra com uma camada de recheio.",
+            "Alterne os discos de massa e o recheio até utilizar o sétimo disco, deixando o oitavo reservado para a decoração.",
+            "Cubra o topo e as laterais do bolo com o restante do recheio e alise a superfície.",
+            "Leve o bolo à geladeira.",
+            "Enquanto o bolo gela, coloque o oitavo disco e as sobras de massa em um processador.",
+            "Processe até obter uma farofa fina.",
+            "Retire o bolo da geladeira e cubra o topo e as laterais com a farofa de massa.",
+            "Faça uma camada mais grossa de farofa na parte superior, com aproximadamente 8 mm.",
+            "Pressione delicadamente um pedaço de plástico-bolha sobre a superfície para formar o padrão de colmeia.",
+            "Coloque o mel em um saco de confeitar e utilize-o para preencher algumas das cavidades da decoração."
+          ]
+        }
+      ],
+      "notes": [
+        "A receita utiliza 8 discos de massa: 7 para as camadas do bolo e 1 para fazer a farofa da decoração.",
+        "Diâmetro indicado para os discos: 15 cm.",
+        "Espessura aproximada da massa: 4 mm.",
+        "A receita indica 60 minutos de espera.",
+        "O tempo total pode variar conforme o tempo de montagem e refrigeração."
       ]
     }
   ]
